@@ -18,6 +18,14 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 ### Vegetation data
 
+- Species_Richness.csv
+- vegetation_curated.csv
+- Vegetation.csv
+- FullDataHits_curated.csv
+- FullDataHits_damage_not_separated.csv
+- env.csv
+- PA_All.csv
+
 ### Gas flux data
 
 - Latnja_Browning_FluxCalRoutput_ALL_20230221.csv
