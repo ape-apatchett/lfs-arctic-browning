@@ -1,6 +1,6 @@
 # lfs-arctic-browning
 
-This repository contains data and code for the manuscript: "Arctic browning alters plant-soil-microbe interactions and carbon fluxes in the Oroarctic tundra". We investigate ecosystem-wide responses to Arctic browning using vegetation surveys, gas flux measurements, soil properties, and microbial community analyses.
+This repository contains data and code for the manuscript: "Dominant shrub identity shapes above- and belowground ecosystem differences associated with Arctic browning". We investigate ecosystem-wide responses to Arctic browning using vegetation surveys, gas flux measurements, soil properties, and microbial community analyses.
 
 The DOI for this code and data repository is managed through Zenodo [ADD here]
 
@@ -20,6 +20,9 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 ### Gas flux data
 
+- Latnja_Browning_FluxCalRoutput_ALL_20230221.csv
+- browning_gpp_20230221.csv
+
 ### Microbial data
 
 ## Scripts
@@ -35,3 +38,8 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 - Figure 2. Effects of Vegetation and Status on plant group cover and species diversity
 - Table S4. Pairwise differences of GLMMs for vegetation cover for Vegetation × Status
+
+### browning_gasflux
+
+- Table S5. Pairwise differences of GLMMs for 2021 NEE, GPP, and CH4 for vegetation type x health status
+- Figure 3. CO2 and CH4 fluxes by Vegetation and Status measured in late summer 2021. 
