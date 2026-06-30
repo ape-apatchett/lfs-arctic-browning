@@ -35,7 +35,12 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 ### Soil data
 
-
+- Browning_lab_CN.csv
+- Browning_lab_pH.csv
+- Browning_lab_SM.csv
+- Browning_lab_SOM.csv
+- Browning_lab_TOC_TN_v2.csv
+- Browning_SM_ST.csv
 
 ### Microbial data
 
@@ -60,3 +65,7 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 - Figure 3. CO2 and CH4 fluxes by Vegetation and Status measured in late summer 2021. 
 
 ### browning_soil_characteristics
+
+- Table S8. Field measurements of soil temperature and moisture
+- Table S9. General properties between core (0-10 cm) and BSC (0-2.5 cm) samples
+- Table S10. Pairwsie differences for total dissolved nitrogen (TN)
