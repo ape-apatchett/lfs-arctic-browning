@@ -44,6 +44,8 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 ### Microbial data
 
+- qPCR_Browning_recalc.csv
+
 ## Scripts
 
 ### browning_vegetation_community_composition
@@ -69,3 +71,8 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 - Table S8. Field measurements of soil temperature and moisture
 - Table S9. General properties between core (0-10 cm) and BSC (0-2.5 cm) samples
 - Table S10. Pairwsie differences for total dissolved nitrogen (TN)
+
+### browning_qPCR
+
+- Table S11. Mean gene copy abundances
+- Table S12. Pairwise differences for soil 18S gene copies and 18S:16S gene copy ratios
