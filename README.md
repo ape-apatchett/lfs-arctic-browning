@@ -18,13 +18,15 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 ### Vegetation data
 
+- Browning_species_names_codes_veg_type.csv
+- env.csv
+- FullDataHits_curated.csv
+- FullDataHits_damage_not_separated.csv
+- FullDataHits_damage.csv
+- PA_All.csv
 - Species_Richness.csv
 - vegetation_curated.csv
 - Vegetation.csv
-- FullDataHits_curated.csv
-- FullDataHits_damage_not_separated.csv
-- env.csv
-- PA_All.csv
 
 ### Gas flux data
 
@@ -39,6 +41,7 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 - Table 1. Vegetation damage (%) recorded during the 2020 survey
 - Table S2. Presence/absence of vascular and cryptogam species
+- Figure 1. Species coefficients from the GLLVM
 - Figure S2. Ordination plot of research plots and species along the latent axis
 - Figure S3. Residual correlation matrices from GLLVMs of vegetation species
 
