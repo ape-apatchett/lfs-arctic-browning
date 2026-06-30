@@ -33,6 +33,10 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 - Latnja_Browning_FluxCalRoutput_ALL_20230221.csv
 - browning_gpp_20230221.csv
 
+### Soil data
+
+
+
 ### Microbial data
 
 ## Scripts
@@ -54,3 +58,5 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 - Table S5. Pairwise differences of GLMMs for 2021 NEE, GPP, and CH4 for vegetation type x health status
 - Figure 3. CO2 and CH4 fluxes by Vegetation and Status measured in late summer 2021. 
+
+### browning_soil_characteristics
