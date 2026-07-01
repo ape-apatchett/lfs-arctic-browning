@@ -81,7 +81,7 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 ### browning_DADA2_16S_Pipeline
 
-Processing 16S amplicon sequencing files for downstream analysis.
+Processing 16S amplicon sequencing fastq files for downstream analysis.
 
 - Generates:
   -   asv table: Latnja_Browning_16S_ASVtable_nochim.csv
