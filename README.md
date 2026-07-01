@@ -79,6 +79,15 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 - Table S11. Mean gene copy abundances
 - Table S12. Pairwise differences for soil 18S gene copies and 18S:16S gene copy ratios
 
+### browning_DADA2_16S_Pipeline
+
+Processing 16S amplicon sequencing files for downstream analysis.
+
+- Generates:
+  -   asv table: Latnja_Browning_16S_ASVtable_nochim.csv
+  -   taxonomy table: Latnja_Browning_16S_taxa_sp_silva.csv
+  -   phylogenetic tree: phangorn.tree.RDS
+
 ### browning_16S_alphadiversity
 
 - Table S13. Prevalence and abundance of 16S rRNA gene phyla
