@@ -55,11 +55,13 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 - Latnja_Browning_16S_taxa_sp_silva.csv
 - phangorn.tree.RDS
 - Metadata.csv
-- basic_filter_16s.RDS
-- rarefied_16s.RDS
 
 #### 16S analysis
 
+- basic_filter_16s.RDS
+- rarefied_16s.RDS
+- FullDataHits_curated.csv
+- curated_flux.csv
 
 ## Scripts
 
@@ -112,3 +114,8 @@ Creating phyloseq objects from metadata, asv table, taxonomy table, and phylogen
 ### browning_16S_alphadiversity
 
 - Table S13. Prevalence and abundance of 16S rRNA gene phyla
+
+### browning_16S_betadiversity
+
+- Figure 4. Constrained Analysis of Principal Coordinates (CAP) ordination of bacterial community composition
+- Table S15. Procrustes analysis comparing bacterial community composition with vegetation, soil properties, and gas flux datasets
