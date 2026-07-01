@@ -44,9 +44,21 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 ### Microbial data
 
+#### qPCR
+
 - qPCR_Browning_recalc.csv
+
+#### 16S preprocessing
+
+- Latnja_Browning_16S_ASVtable_nochim.csv
+- Latnja_Browning_16S_Read_Tracking.csv
+- Latnja_Browning_16S_taxa_sp_silva.csv
+- phangorn.tree.RDS
 - basic_filter_16s.RDS
 - rarefied_16s.RDS
+
+#### 16S analysis
+
 
 ## Scripts
 
