@@ -45,6 +45,8 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 ### Microbial data
 
 - qPCR_Browning_recalc.csv
+- basic_filter_16s.RDS
+- rarefied_16s.RDS
 
 ## Scripts
 
@@ -76,3 +78,7 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 - Table S11. Mean gene copy abundances
 - Table S12. Pairwise differences for soil 18S gene copies and 18S:16S gene copy ratios
+
+### browning_16S_alphadiversity
+
+- Table S13. Prevalence and abundance of 16S rRNA gene phyla
