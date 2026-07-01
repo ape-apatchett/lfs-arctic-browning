@@ -54,6 +54,7 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 - Latnja_Browning_16S_Read_Tracking.csv
 - Latnja_Browning_16S_taxa_sp_silva.csv
 - phangorn.tree.RDS
+- Metadata.csv
 - basic_filter_16s.RDS
 - rarefied_16s.RDS
 
@@ -99,6 +100,14 @@ Processing 16S amplicon sequencing fastq files for downstream analysis.
   -   asv table: Latnja_Browning_16S_ASVtable_nochim.csv
   -   taxonomy table: Latnja_Browning_16S_taxa_sp_silva.csv
   -   phylogenetic tree: phangorn.tree.RDS
+
+### browning_16S_phyloseq_objects_for_downstream_analyses
+
+Creating phyloseq objects from metadata, asv table, taxonomy table, and phylogenetic tree for downstream analysis.
+
+- Generates phyloseq objects:
+  -   basic_filter_16s.RDS
+  -   rarefied_16s.RDS
 
 ### browning_16S_alphadiversity
 
