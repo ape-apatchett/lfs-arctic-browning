@@ -159,13 +159,21 @@ Generates stacked bar plots showing the relative abundance of bacterial taxa at 
 
 #### ITS2 amplicon sequencing
 
-##### browning_DADA2_ITS_Pipeline.R
+##### browning_DADA2_ITS2_Pipeline.R
 
 Processes raw fungal ITS2 Illumina MiSeq sequences using the DADA2 workflow, including quality filtering, denoising, chimera removal, read tracking, and taxonomic assignment with the UNITE database.
 
 - Generates:
   -   asv table: Latnja_Browning_ITS_ASVs_nochimeras.csv
   -   taxonomy table: Latnja_Browning_ITS_taxonomy.csv
+
+##### browning_ITS2_phyloseq_objects_for_downstream_analyses.R
+
+Creates phyloseq objects for downstream ITS2 community analyses by importing metadata, ASV and taxonomy tables, renaming ASVs, cleaning taxonomy, filtering low-prevalence ASVs (5% threshold), and rarefying samples to an even sequencing depth (5,000 reads per sample).
+
+- Generates phyloseq objects:
+  -   no_filter_ITS.RDS
+  -   rarefied_ITS.RDS
 
 #### Shotgun metagenomics
 
