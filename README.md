@@ -65,7 +65,8 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 ## Scripts
 
-### browning_vegetation_community_composition
+### Vegetation
+#### browning_vegetation_community_composition
 
 - Table 1. Vegetation damage (%) recorded during the 2020 survey
 - Table S2. Presence/absence of vascular and cryptogam species
@@ -78,23 +79,26 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 - Figure 2. Effects of Vegetation and Status on plant group cover and species diversity
 - Table S4. Pairwise differences of GLMMs for vegetation cover for Vegetation × Status
 
-### browning_gasflux
+### Gas flux
+#### browning_gasflux
 
 - Table S5. Pairwise differences of GLMMs for 2021 NEE, GPP, and CH4 for vegetation type x health status
 - Figure 3. CO2 and CH4 fluxes by Vegetation and Status measured in late summer 2021. 
 
-### browning_soil_characteristics
+### Soil
+#### browning_soil_characteristics
 
 - Table S8. Field measurements of soil temperature and moisture
 - Table S9. General properties between core (0-10 cm) and BSC (0-2.5 cm) samples
 - Table S10. Pairwsie differences for total dissolved nitrogen (TN)
 
-### browning_qPCR
+### Microbial
+#### browning_qPCR
 
 - Table S11. Mean gene copy abundances
 - Table S12. Pairwise differences for soil 18S gene copies and 18S:16S gene copy ratios
 
-### browning_DADA2_16S_Pipeline
+#### browning_DADA2_16S_Pipeline
 
 Processing 16S amplicon sequencing fastq files for downstream analysis.
 
@@ -103,7 +107,7 @@ Processing 16S amplicon sequencing fastq files for downstream analysis.
   -   taxonomy table: Latnja_Browning_16S_taxa_sp_silva.csv
   -   phylogenetic tree: phangorn.tree.RDS
 
-### browning_16S_phyloseq_objects_for_downstream_analyses
+#### browning_16S_phyloseq_objects_for_downstream_analyses
 
 Creating phyloseq objects from metadata, asv table, taxonomy table, and phylogenetic tree for downstream analysis.
 
@@ -111,14 +115,21 @@ Creating phyloseq objects from metadata, asv table, taxonomy table, and phylogen
   -   basic_filter_16s.RDS
   -   rarefied_16s.RDS
 
-### browning_16S_alphadiversity
+#### browning_16S_alphadiversity
 
 - Table S13. Prevalence and abundance of 16S rRNA gene phyla
 
-### browning_16S_betadiversity
+#### browning_16S_betadiversity
 
 - Figure 4. Constrained Analysis of Principal Coordinates (CAP) ordination of bacterial community composition
 - Table S15. Procrustes analysis comparing bacterial community composition with vegetation, soil properties, and gas flux datasets
+
+#### browning_16S_differential_abundance_R
+
+Performs differential abundance analysis of bacterial 16S genera using ANCOM-BC2, and identifies structural-zero taxa.
+
+- Table S14. Structural-zero assessment for bacterial genera (grouped by family)
+- Figure S5. Differential abundance of bacterial 16S taxa estimated using ANCOM-BC
 
 ### trimmomatic_automate.sh
 
