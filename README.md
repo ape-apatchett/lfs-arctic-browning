@@ -63,6 +63,12 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 - FullDataHits_curated.csv
 - curated_flux.csv
 
+#### ITS2 preprocessing
+
+#### ITS2 analysis
+
+#### Metagenomic 
+
 ## Scripts
 
 ### Vegetation
@@ -93,63 +99,77 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 - Table S10. Pairwsie differences for total dissolved nitrogen (TN)
 
 ### Microbial
-#### browning_qPCR.R
+
+#### qPCR
+
+##### browning_qPCR.R
 
 - Table S11. Mean gene copy abundances
 - Table S12. Pairwise differences for soil 18S gene copies and 18S:16S gene copy ratios
 
-#### browning_DADA2_16S_Pipeline.R
+#### 16S amplicon sequencing
 
-Processing 16S amplicon sequencing fastq files for downstream analysis.
+##### browning_DADA2_16S_Pipeline.R
+
+Processes 16S amplicon sequencing fastq files for downstream analysis.
 
 - Generates:
   -   asv table: Latnja_Browning_16S_ASVtable_nochim.csv
   -   taxonomy table: Latnja_Browning_16S_taxa_sp_silva.csv
   -   phylogenetic tree: phangorn.tree.RDS
 
-#### browning_16S_phyloseq_objects_for_downstream_analyses.R
+##### browning_16S_phyloseq_objects_for_downstream_analyses.R
 
-Creating phyloseq objects from metadata, asv table, taxonomy table, and phylogenetic tree for downstream analysis.
+Creates phyloseq objects from metadata, asv table, taxonomy table, and phylogenetic tree for downstream analysis.
 
 - Generates phyloseq objects:
   -   basic_filter_16s.RDS
   -   rarefied_16s.RDS
 
-#### browning_16S_alphadiversity.R
+##### browning_16S_alphadiversity.R
+
+Calculates bacterial alpha diversity metrics and tests for differences among vegetation and health status groups.
 
 - Table S13. Prevalence and abundance of 16S rRNA gene phyla
 
-#### browning_16S_betadiversity.R
+##### browning_16S_betadiversity.R
+
+Analyzes bacterial beta diversity using Bray-Curtis and weighted UniFrac distances.
 
 - Figure 4. Constrained Analysis of Principal Coordinates (CAP) ordination of bacterial community composition
 - Table S15. Procrustes analysis comparing bacterial community composition with vegetation, soil properties, and gas flux datasets
 
-#### browning_16S_differential_abundance.R
+##### browning_16S_differential_abundance.R
 
 Performs differential abundance analysis of bacterial 16S genera using ANCOM-BC2, and identifies structural-zero taxa.
 
 - Table S14. Structural-zero assessment for bacterial genera (grouped by family)
 - Figure S5. Differential abundance of bacterial 16S taxa estimated using ANCOM-BC
 
-#### browning_16S_taxonomy.R
+##### browning_16S_taxonomy.R
 
 Generates stacked bar plots showing the relative abundance of bacterial taxa at the family and genus levels from the non-rarefied 16S community dataset.
 
 - Figure S4. Relative abundance of bacterial taxa at the A) genus and B) family levels
 
-### trimmomatic_automate.sh
+#### ITS2 amplicon sequencing
+
+
+#### Shotgun metagenomics
+
+##### trimmomatic_automate.sh
 
 Performs quality trimming and filtering of paired-end metagenomic reads using Trimmomatic and separates unpaired reads for downstream analysis.
 
-### contamination_check.sh
+##### contamination_check.sh
 
 Maps trimmed reads against the human reference genome (GRCh38) using Bowtie2, removes human-derived reads, and outputs non-human paired-end reads for downstream metagenomic analyses.
 
-### eggnog.sh
+##### eggnog.sh
 
-Converts non-human paired-end FASTQ files to FASTA format and performs functional annotation of metagenomic reads using eggNOG-mapper with DIAMOND.
+Annotates metagenomic sequences using eggNOG-mapper with DIAMOND.
 
-### extract_eggnog_columns_function.sh
+##### extract_eggnog_columns_function.sh
 
 Extracts selected functional annotation categories (e.g., KEGG, GO, CAZy, PFAM) from eggNOG annotation files, expands multiple annotations, and generates per-sample count tables for downstream functional analyses.
 
