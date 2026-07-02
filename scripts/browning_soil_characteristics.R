@@ -857,7 +857,7 @@ options(contrasts = c("contr.sum", "contr.poly"))
 #using all data and just considering vegetation and status
 
 
-##Tsoil - GLM Model####
+##Tsoil - GLMM Model####
 
 #Average within plot replicates
 avg_st <- sm_st_long %>%
@@ -927,7 +927,7 @@ avg_sm <- sm_st %>%
     .groups = "drop")
 
 
-##%VWC - GLM model####
+##%VWC - GLMM model####
 
 glmsm <- glmmTMB(SWC ~ Vegetation + Status + (1|Plot),
                  dispformula = ~ Vegetation + Status,
@@ -980,7 +980,7 @@ cn_core <- cn %>%
   dplyr::filter(Sample_type == "Core") %>%
   droplevels()
 
-##%N - core - glm####
+##%N - core - GLM####
 
 glmpnc <- glmmTMB(log10(N_percent) ~ Vegetation + Status,
                   data = cn_core,
@@ -1030,7 +1030,7 @@ cn_core <- cn %>%
   dplyr::filter(Sample_type == "Core") %>%
   droplevels()
 
-##delta 15N - core - glm####
+##delta 15N - core - GLM####
 
 glmdnc <- glmmTMB(log10(delta_15N + 5) ~ Vegetation + Status,
                   data = cn_core,
@@ -1096,7 +1096,7 @@ tn_core <- toctn %>%
   droplevels()
 
 
-##TN - core - glm####
+##TN - core - GLM####
 
 glmtnc <- glmmTMB(log10(TN_adj) ~ Vegetation + Status,
                   dispformula = ~ Status,
@@ -1168,7 +1168,7 @@ cn_core <- cn %>%
   dplyr::filter(Sample_type == "Core") %>%
   droplevels()
 
-##%C - core - glm####
+##%C - core - GLM####
 
 glmpcc <- glmmTMB(C_percent ~ Vegetation + Status,
                   dispformula = ~ Vegetation,
@@ -1218,7 +1218,7 @@ cn_core <- cn %>%
   dplyr::filter(Sample_type == "Core") %>%
   droplevels()
 
-##delta 13C - core - glm####
+##delta 13C - core - GLM####
 
 glmdcc <- glmmTMB(delta_13C ~ Vegetation + Status,
                   data = cn_core,
@@ -1273,7 +1273,7 @@ toctn_core <- toctn %>%
   droplevels()
 
 
-##TOC - core - glm####
+##TOC - core - GLM####
 
 glmtocc <- glmmTMB(TOC_adj ~ Vegetation + Status,
                    data = toctn_core,
@@ -1331,7 +1331,7 @@ som_core <- som %>%
 # Convert percentages to proportions
 som_core$LOI <- som_core$LOI / 100
 
-## SOM - core - glm####
+## SOM - core - GLM####
 glmsomc <- glmmTMB(LOI ~ Vegetation + Status,
                    data = som_core,
                    family = beta_family(link = "logit"),
@@ -1495,7 +1495,7 @@ toctn_bsc <- toctn %>%
   dplyr::filter(Sample_type == "BSC") %>%
   droplevels()
 
-##TN - BSC - GLM - Model 2 - Cassiope and Empetrum Health Status (2020)####
+##TN - BSC - GLM - Cassiope and Empetrum Health Status (2020)####
 
 #Make cassiope only data frame
 toctn_bsc_2020 <- toctn_bsc %>%
@@ -1553,7 +1553,7 @@ toctn_bsc <- toctn %>%
   droplevels()
 
 
-##TOC - BSC - glmm Model 2 - Cassiope and Empetrum Health Status 2020####
+##TOC - BSC - GLM - Cassiope and Empetrum Health Status 2020####
 
 #Subset year
 toctn_bsc_2020 <- toctn_bsc %>%
@@ -1610,7 +1610,7 @@ som_bsc <- som %>%
 som_bsc$LOI <- som_bsc$LOI / 100
 
 
-## SOM - BSC - glm - Model 2 - Cassiope and Empetrum Health Status 2020####
+## SOM - BSC - GLM - Cassiope and Empetrum Health Status 2020####
 
 #Subset 2020
 som_bsc_2020 <- som_bsc %>%
@@ -1670,7 +1670,7 @@ percent_diff_veg
 ph_bsc <- ph %>%
   dplyr::filter(Sample_type == "BSC")
 
-##pH - BSC - GLM - Model 2 - Cassiope and Empetrum Health Status 2020#### 
+##pH - BSC - GLM - Cassiope and Empetrum Health Status 2020#### 
 
 #Subset 2020
 ph_bsc_2020 <- ph_bsc %>%
@@ -1720,7 +1720,7 @@ percent_diff_veg
 
 ##GWC - BSC ####
 
-##GWC - BSC - GLM - Model 2 - Cassiope and Empetrum Health Status 2020####
+##GWC - BSC - GLM - Cassiope and Empetrum Health Status 2020####
 
 sm_2020 <- sm %>%
   filter(Year == "2020")
@@ -1776,7 +1776,7 @@ toctn_bsc <- toctn %>%
   dplyr::filter(Sample_type == "BSC") %>%
   droplevels()
 
-##TN - BSC - glmm - Model 1 - Cassiope Health Status x Year####
+##TN - BSC - GLMM - Cassiope Health Status x Year####
 
 #Make cassiope only data frame
 toctn_bsc_cas <- toctn_bsc %>%
@@ -1839,7 +1839,7 @@ plotResiduals(tnb_qr, form = toctn_bsc_cas$Year, xlab = "Year")
 
 
 
-##TN - BSC M1 - % change####
+##TN - BSC - % change####
 emm <- emmeans(glmtnbm1, ~ Status * Year)
 
 pairs(emm, type = "response")
@@ -1858,7 +1858,7 @@ toctn_bsc <- toctn %>%
   droplevels()
 
 
-##TOC - BSC - glm Model 1 - Cassiope Health Status x Year####
+##TOC - BSC - GLM - Cassiope Health Status x Year####
 
 #Subset Cassiope
 toctn_bsc_cas <- toctn_bsc %>%
@@ -1947,7 +1947,7 @@ som_bsc <- som %>%
 # Convert percentages to proportions
 som_bsc$LOI <- som_bsc$LOI / 100
 
-## SOM - BSC - glm - Model 1 - Cassiope Health Status x Year####
+## SOM - BSC - GLMM - Cassiope Health Status x Year####
 
 #Subset Cassiope
 som_bsc_cas <- som_bsc %>%
@@ -2014,7 +2014,7 @@ ph_bsc <- ph %>%
   dplyr::filter(Sample_type == "BSC")
 
 
-##pH - BSC - GLM - Model 1 - Cassiope Health Status x Year#### 
+##pH - BSC - GLMM - Cassiope Health Status x Year#### 
 
 #Subset Cassiope
 ph_bsc_cas <- ph_bsc %>%
@@ -2064,7 +2064,7 @@ percent_diff_year
 
 ##GWC - BSC ####
 
-##GWC - BSC - GLM - Model 1 - Cassiope Health Status x Year####
+##GWC - BSC - GLMM - Cassiope Health Status x Year####
 
 sm_cas <- sm %>%
   filter(Vegetation == "Cassiope")
@@ -2100,7 +2100,7 @@ plotResiduals(gwc_qr, form = sm_cas$Status, xlab = "Status")
 plotResiduals(gwc_qr, form = sm_cas$Year, xlab = "Year")
 
 
-##GWC - BSC - Model 1 - % change####
+##GWC - BSC - % change####
 
 # Year effect
 em_gwc <- emmeans(glmgwcm1, ~ Year, type = "response")
@@ -2122,7 +2122,6 @@ percent_diff_year
 cn_bsc <- cn %>%
   dplyr::filter(Sample_type == "BSC") %>%
   droplevels()
-
 
 #Filter for just Cassiope
 #%N BSC data does not exist for 2020, and 2022 only has n = 2 for empetrum
@@ -2170,7 +2169,7 @@ cn_bsc <- cn %>%
   droplevels()
 
 
-##delta 15N - BSC - glm####
+##delta 15N - BSC - GLM####
 
 #Filter for just Cassiope
 cn_bsc_cas <- cn_bsc %>%
@@ -2277,7 +2276,7 @@ cn_bsc <- cn %>%
   droplevels()
 
 
-##delta 13C - BSC - glm####
+##delta 13C - BSC - GLM####
 
 #Subset for Cassiope
 cn_bsc_cas <- cn_bsc %>%
