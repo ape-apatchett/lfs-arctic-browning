@@ -119,3 +119,20 @@ Creating phyloseq objects from metadata, asv table, taxonomy table, and phylogen
 
 - Figure 4. Constrained Analysis of Principal Coordinates (CAP) ordination of bacterial community composition
 - Table S15. Procrustes analysis comparing bacterial community composition with vegetation, soil properties, and gas flux datasets
+
+### trimmomatic_automate.sh
+
+Performs quality trimming and filtering of paired-end metagenomic reads using Trimmomatic and separates unpaired reads for downstream analysis.
+
+### contamination_check.sh
+
+Maps trimmed reads against the human reference genome (GRCh38) using Bowtie2, removes human-derived reads, and outputs non-human paired-end reads for downstream metagenomic analyses.
+
+### eggnog.sh
+
+Converts non-human paired-end FASTQ files to FASTA format and performs functional annotation of metagenomic reads using eggNOG-mapper with DIAMOND.
+
+### extract_eggnog_columns_function.sh
+
+Extracts selected functional annotation categories (e.g., KEGG, GO, CAZy, PFAM) from eggNOG annotation files, expands multiple annotations, and generates per-sample count tables for downstream functional analyses.
+
