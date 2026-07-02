@@ -79,6 +79,8 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 ### Vegetation
 #### browning_vegetation_community_composition.R
 
+Fits generalized linear latent variable models (GLLVMs) to vegetation point-frame data to assess changes in plant community composition associated with vegetation type and browning, and generates descriptive summaries of vegetation composition and damage.
+
 - Table 1. Vegetation damage (%) recorded during the 2020 survey
 - Table S2. Presence/absence of vascular and cryptogam species
 - Figure 1. Species coefficients from the GLLVM
@@ -87,17 +89,23 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 #### browning_vegetation_cover_and_diversity.R
 
+Analyzes vegetation cover, diversity, species richness, and beta diversity using GLMs and PERMANOVA.
+
 - Figure 2. Effects of Vegetation and Status on plant group cover and species diversity
 - Table S4. Pairwise differences of GLMMs for vegetation cover for Vegetation × Status
 
 ### Gas flux
 #### browning_gasflux.R
 
+Analyzes net ecosystem exchange (NEE), ecosystem respiration (ER), gross primary productivity (GPP), and CH₄ fluxes using GLMMs.
+
 - Table S5. Pairwise differences of GLMMs for 2021 NEE, GPP, and CH4 for vegetation type x health status
 - Figure 3. CO2 and CH4 fluxes by Vegetation and Status measured in late summer 2021. 
 
 ### Soil
 #### browning_soil_characteristics.R
+
+Analyzes soil temperature, moisture, carbon, nitrogen, pH, and organic matter using GLMs and GLMMs.
 
 - Table S8. Field measurements of soil temperature and moisture
 - Table S9. General properties between core (0-10 cm) and BSC (0-2.5 cm) samples
@@ -108,6 +116,8 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 #### qPCR
 
 ##### browning_qPCR.R
+
+Analyzes bacterial (16S) and fungal (18S) gene copy abundances and 18S:16S gene copy ratios using generalized linear models (GLMs)
 
 - Table S11. Mean gene copy abundances
 - Table S12. Pairwise differences for soil 18S gene copies and 18S:16S gene copy ratios
