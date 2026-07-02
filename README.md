@@ -65,6 +65,11 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 #### ITS2 preprocessing
 
+- Latnja_Browning_ITS_ASVs_nochimeras.csv
+- Latnja_Browning_ITS_Read_Tracking.csv
+- Latnja_Browning_ITS_taxonomy.csv
+- Metadata.csv
+
 #### ITS2 analysis
 
 #### Metagenomic 
@@ -154,6 +159,13 @@ Generates stacked bar plots showing the relative abundance of bacterial taxa at 
 
 #### ITS2 amplicon sequencing
 
+##### browning_DADA2_ITS_Pipeline.R
+
+Processes raw fungal ITS2 Illumina MiSeq sequences using the DADA2 workflow, including quality filtering, denoising, chimera removal, read tracking, and taxonomic assignment with the UNITE database.
+
+- Generates:
+  -   asv table: Latnja_Browning_ITS_ASVs_nochimeras.csv
+  -   taxonomy table: Latnja_Browning_ITS_taxonomy.csv
 
 #### Shotgun metagenomics
 
