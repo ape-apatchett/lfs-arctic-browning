@@ -72,6 +72,9 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 #### ITS2 analysis
 
+- no_filter_ITS.RDS
+- rarefied_ITS.RDS
+
 #### Metagenomic 
 
 ## Scripts
@@ -184,6 +187,13 @@ Creates phyloseq objects for downstream ITS2 community analyses by importing met
 - Generates phyloseq objects:
   -   no_filter_ITS.RDS
   -   rarefied_ITS.RDS
+
+##### browning_ITS2_alphadiversity.R
+
+Calculates fungal alpha diversity metrics and tests the effects of vegetation type and browning status using generalized linear models.
+
+- Generates:
+  - Table S16. Prevalence and abundance of ITS2 fungal phyla
 
 #### Shotgun metagenomics
 
