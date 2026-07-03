@@ -74,6 +74,7 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 - no_filter_ITS.RDS
 - rarefied_ITS.RDS
+- FullDataHits_curated.csv
 - curated_flux.csv
 
 
@@ -199,9 +200,13 @@ Calculates fungal alpha diversity metrics and tests the effects of vegetation ty
 
 ##### browning_ITS2_betadiversity.R
 
+Analyzes fungal (ITS2) community composition using ordination, PERMANOVA, pairwise PERMANOVA, multivariate dispersion, constrained ordination (CAP), Procrustes, and partial Mantel analyses.
+
 - Generates:
   -  Figure S8. Principal Coordinates Analysis (PCoA) based on Bray-Curtis dissimilarities of rarefied ITS2 amplicon sequencing data
+  -  Figure S9. Constrained analysis of principal coordinates (CAP) ordination of fungal community composition (Bray-Curtis dissimilarity) in relation to selected environmental variables
   -  Table S19. Pairwise PERMANOVA results comparing fungal community dissimilarity (Bray–Curtis distance) across vegetation-health groups
+  -  Table S20. Procrustes analysis comparing fungal community (ITS2) composition with vegetation, soil properties, and gas flux datasets
 
 #### Shotgun metagenomics
 
