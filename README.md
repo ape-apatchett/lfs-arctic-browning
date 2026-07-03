@@ -208,6 +208,14 @@ Analyzes fungal (ITS2) community composition using ordination, PERMANOVA, pairwi
   -  Table S19. Pairwise PERMANOVA results comparing fungal community dissimilarity (Bray–Curtis distance) across vegetation-health groups
   -  Table S20. Procrustes analysis comparing fungal community (ITS2) composition with vegetation, soil properties, and gas flux datasets
 
+##### browning_ITS2_differential_abundance.R
+
+Performs differential abundance analysis of fungal ITS2 taxa using ANCOM-BC2 and identifies structural-zero taxa across vegetation-health groups.
+
+- Generates:
+  - Figure S7. Structural-zero analysis of ITS2 amplicon sequencing data using ANCOM-BC2
+  - Table S17. Structural zero detection by group for each fungal genus (ITS2)
+
 #### Shotgun metagenomics
 
 ##### trimmomatic_automate.sh
