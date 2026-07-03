@@ -83,6 +83,14 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 ## Scripts
 
 ### Vegetation
+
+#### browning_vegetation_curation.R
+
+Aggregates point-frame vegetation survey data from individual species into vegetation functional groups using a species lookup table, creating the curated dataset used for vegetation cover and diversity analyses.
+
+- Generates file:
+  - vegetation_curated.csv
+
 #### browning_vegetation_community_composition.R
 
 Fits generalized linear latent variable models (GLLVMs) to vegetation point-frame data to assess changes in plant community composition associated with vegetation type and browning, and generates descriptive summaries of vegetation composition and damage.
