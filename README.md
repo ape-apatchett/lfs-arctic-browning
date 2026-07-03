@@ -74,6 +74,8 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 - no_filter_ITS.RDS
 - rarefied_ITS.RDS
+- curated_flux.csv
+
 
 #### Metagenomic 
 
@@ -194,6 +196,12 @@ Calculates fungal alpha diversity metrics and tests the effects of vegetation ty
 
 - Generates:
   - Table S16. Prevalence and abundance of ITS2 fungal phyla
+
+##### browning_ITS2_betadiversity.R
+
+- Generates:
+  -  Figure S8. Principal Coordinates Analysis (PCoA) based on Bray-Curtis dissimilarities of rarefied ITS2 amplicon sequencing data
+  -  Table S19. Pairwise PERMANOVA results comparing fungal community dissimilarity (Bray–Curtis distance) across vegetation-health groups
 
 #### Shotgun metagenomics
 
