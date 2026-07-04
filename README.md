@@ -82,6 +82,11 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 #### Metagenomic 
 
+- KO_orthology.tsv
+- kegg_map.csv
+- metagenomic_browning_KEGG_ko_counts.tsv
+- browning_combined_nohuman_sequence_counts.txt
+
 ## Scripts
 
 ### Vegetation
@@ -258,4 +263,7 @@ Annotates metagenomic sequences using eggNOG-mapper with DIAMOND.
 ##### extract_eggnog_columns_function.sh
 
 Extracts selected functional annotation categories (e.g., KEGG, GO, CAZy, PFAM) from eggNOG annotation files, expands multiple annotations, and generates per-sample count tables for downstream functional analyses.
+
+##### browning_functional_profiles_kegg.R
+
 
