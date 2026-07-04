@@ -1,0 +1,730 @@
+"Sample","guild_fg","Guild_Count","RelAbund"
+"BC1","Animal Pathogen-Undefined Saprotroph",0,0
+"BC1","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"BC1","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"BC1","Dung Saprotroph-Endophyte",0,0
+"BC1","Ectomycorrhizal",39,0.00317952062612098
+"BC1","Ectomycorrhizal-Wood Saprotroph",6,0.000489157019403228
+"BC1","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"BC1","Ectomycorrhizal;Undefined Saprotroph",0,0
+"BC1","Endophyte",129,0.0105168759171694
+"BC1","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"BC1","Endophyte-Undefined Saprotroph",0,0
+"BC1","Ericoid Mycorrhizal",0,0
+"BC1","Ericoid Mycorrhizal;Endophyte",0,0
+"BC1","Fungal Parasite",35,0.00285341594651883
+"BC1","Fungal Parasite;Lichen Parasite",0,0
+"BC1","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"BC1","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"BC1","Lichenized",27,0.00220120658731453
+"BC1","Litter Saprotroph",0,0
+"BC1","Litter Saprotroph;Undefined Saprotroph",0,0
+"BC1","Orchid Mycorrhizal",25,0.00203815424751345
+"BC1","Plant Pathogen",8,0.000652209359204305
+"BC1","Plant Pathogen;Animal Pathogen;Endophyte",0,0
+"BC1","Soil Saprotroph",0,0
+"BC1","Undefined Saprotroph",1641,0.133784444806783
+"BC1","Wood Saprotroph",12,0.000978314038806457
+"BC1",NA,10344,0.843306701451166
+"BC3","Animal Pathogen-Undefined Saprotroph",3,0.000240751143567932
+"BC3","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"BC3","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"BC3","Dung Saprotroph-Endophyte",0,0
+"BC3","Ectomycorrhizal",106,0.00850654040606693
+"BC3","Ectomycorrhizal-Wood Saprotroph",0,0
+"BC3","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"BC3","Ectomycorrhizal;Undefined Saprotroph",0,0
+"BC3","Endophyte",172,0.0138030655645614
+"BC3","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",15,0.00120375571783966
+"BC3","Endophyte-Undefined Saprotroph",0,0
+"BC3","Ericoid Mycorrhizal",0,0
+"BC3","Ericoid Mycorrhizal;Endophyte",14,0.00112350533665035
+"BC3","Fungal Parasite",46,0.00369151753470829
+"BC3","Fungal Parasite;Lichen Parasite",0,0
+"BC3","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"BC3","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"BC3","Lichenized",298,0.0239146135944146
+"BC3","Litter Saprotroph",0,0
+"BC3","Litter Saprotroph;Undefined Saprotroph",0,0
+"BC3","Orchid Mycorrhizal",96,0.00770403659417382
+"BC3","Plant Pathogen",187,0.0150068212824011
+"BC3","Plant Pathogen;Animal Pathogen;Endophyte",5,0.000401251905946553
+"BC3","Soil Saprotroph",0,0
+"BC3","Undefined Saprotroph",915,0.0734290987882192
+"BC3","Wood Saprotroph",0,0
+"BC3",NA,10604,0.85097504213145
+"BC4","Animal Pathogen-Undefined Saprotroph",0,0
+"BC4","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"BC4","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"BC4","Dung Saprotroph-Endophyte",4,0.0217391304347826
+"BC4","Ectomycorrhizal",0,0
+"BC4","Ectomycorrhizal-Wood Saprotroph",0,0
+"BC4","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"BC4","Ectomycorrhizal;Undefined Saprotroph",0,0
+"BC4","Endophyte",0,0
+"BC4","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"BC4","Endophyte-Undefined Saprotroph",0,0
+"BC4","Ericoid Mycorrhizal",0,0
+"BC4","Ericoid Mycorrhizal;Endophyte",0,0
+"BC4","Fungal Parasite",0,0
+"BC4","Fungal Parasite;Lichen Parasite",0,0
+"BC4","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"BC4","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"BC4","Lichenized",0,0
+"BC4","Litter Saprotroph",0,0
+"BC4","Litter Saprotroph;Undefined Saprotroph",0,0
+"BC4","Orchid Mycorrhizal",0,0
+"BC4","Plant Pathogen",0,0
+"BC4","Plant Pathogen;Animal Pathogen;Endophyte",0,0
+"BC4","Soil Saprotroph",0,0
+"BC4","Undefined Saprotroph",35,0.190217391304348
+"BC4","Wood Saprotroph",0,0
+"BC4",NA,145,0.78804347826087
+"BC5","Animal Pathogen-Undefined Saprotroph",0,0
+"BC5","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"BC5","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"BC5","Dung Saprotroph-Endophyte",0,0
+"BC5","Ectomycorrhizal",1831,0.115820102473275
+"BC5","Ectomycorrhizal-Wood Saprotroph",0,0
+"BC5","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"BC5","Ectomycorrhizal;Undefined Saprotroph",0,0
+"BC5","Endophyte",197,0.0124612562464419
+"BC5","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"BC5","Endophyte-Undefined Saprotroph",0,0
+"BC5","Ericoid Mycorrhizal",0,0
+"BC5","Ericoid Mycorrhizal;Endophyte",40,0.00253020431399836
+"BC5","Fungal Parasite",0,0
+"BC5","Fungal Parasite;Lichen Parasite",0,0
+"BC5","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"BC5","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"BC5","Lichenized",0,0
+"BC5","Litter Saprotroph",0,0
+"BC5","Litter Saprotroph;Undefined Saprotroph",0,0
+"BC5","Orchid Mycorrhizal",113,0.00714782718704535
+"BC5","Plant Pathogen",137,0.00866594977544437
+"BC5","Plant Pathogen;Animal Pathogen;Endophyte",47,0.00297299006894807
+"BC5","Soil Saprotroph",0,0
+"BC5","Undefined Saprotroph",1306,0.0826111708520463
+"BC5","Wood Saprotroph",81,0.00512366373584667
+"BC5",NA,12057,0.762666835346954
+"BC6","Animal Pathogen-Undefined Saprotroph",0,0
+"BC6","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"BC6","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"BC6","Dung Saprotroph-Endophyte",0,0
+"BC6","Ectomycorrhizal",457,0.024728099128835
+"BC6","Ectomycorrhizal-Wood Saprotroph",0,0
+"BC6","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"BC6","Ectomycorrhizal;Undefined Saprotroph",0,0
+"BC6","Endophyte",1441,0.0779719712136789
+"BC6","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"BC6","Endophyte-Undefined Saprotroph",0,0
+"BC6","Ericoid Mycorrhizal",0,0
+"BC6","Ericoid Mycorrhizal;Endophyte",0,0
+"BC6","Fungal Parasite",0,0
+"BC6","Fungal Parasite;Lichen Parasite",0,0
+"BC6","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"BC6","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"BC6","Lichenized",339,0.0183431632487419
+"BC6","Litter Saprotroph",0,0
+"BC6","Litter Saprotroph;Undefined Saprotroph",0,0
+"BC6","Orchid Mycorrhizal",110,0.0059520588712732
+"BC6","Plant Pathogen",676,0.0365781072452789
+"BC6","Plant Pathogen;Animal Pathogen;Endophyte",18,0.000973973269844705
+"BC6","Soil Saprotroph",92,0.00497808560142849
+"BC6","Undefined Saprotroph",2659,0.143877495806504
+"BC6","Wood Saprotroph",0,0
+"BC6",NA,12689,0.686597045614415
+"BC7","Animal Pathogen-Undefined Saprotroph",0,0
+"BC7","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"BC7","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"BC7","Dung Saprotroph-Endophyte",0,0
+"BC7","Ectomycorrhizal",203,0.00477815699658703
+"BC7","Ectomycorrhizal-Wood Saprotroph",0,0
+"BC7","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"BC7","Ectomycorrhizal;Undefined Saprotroph",0,0
+"BC7","Endophyte",767,0.0180534306225727
+"BC7","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"BC7","Endophyte-Undefined Saprotroph",0,0
+"BC7","Ericoid Mycorrhizal",11,0.00025891491114511
+"BC7","Ericoid Mycorrhizal;Endophyte",11,0.00025891491114511
+"BC7","Fungal Parasite",0,0
+"BC7","Fungal Parasite;Lichen Parasite",0,0
+"BC7","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",85,0.00200070613157585
+"BC7","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"BC7","Lichenized",0,0
+"BC7","Litter Saprotroph",0,0
+"BC7","Litter Saprotroph;Undefined Saprotroph",0,0
+"BC7","Orchid Mycorrhizal",79,0.00185947981640579
+"BC7","Plant Pathogen",13,0.00030599034953513
+"BC7","Plant Pathogen;Animal Pathogen;Endophyte",6,0.00014122631517006
+"BC7","Soil Saprotroph",0,0
+"BC7","Undefined Saprotroph",2501,0.05886783570672
+"BC7","Wood Saprotroph",19,0.00044721666470519
+"BC7",NA,38790,0.913028127574438
+"BE1","Animal Pathogen-Undefined Saprotroph",0,0
+"BE1","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"BE1","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"BE1","Dung Saprotroph-Endophyte",0,0
+"BE1","Ectomycorrhizal",2,6.73128702207862e-05
+"BE1","Ectomycorrhizal-Wood Saprotroph",0,0
+"BE1","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"BE1","Ectomycorrhizal;Undefined Saprotroph",0,0
+"BE1","Endophyte",73,0.0024569197630587
+"BE1","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"BE1","Endophyte-Undefined Saprotroph",0,0
+"BE1","Ericoid Mycorrhizal",0,0
+"BE1","Ericoid Mycorrhizal;Endophyte",9,0.000302907915993538
+"BE1","Fungal Parasite",0,0
+"BE1","Fungal Parasite;Lichen Parasite",0,0
+"BE1","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"BE1","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"BE1","Lichenized",15,0.000504846526655897
+"BE1","Litter Saprotroph",0,0
+"BE1","Litter Saprotroph;Undefined Saprotroph",0,0
+"BE1","Orchid Mycorrhizal",17,0.000572159396876683
+"BE1","Plant Pathogen",0,0
+"BE1","Plant Pathogen;Animal Pathogen;Endophyte",14,0.000471190091545504
+"BE1","Soil Saprotroph",0,0
+"BE1","Undefined Saprotroph",104,0.00350026925148088
+"BE1","Wood Saprotroph",0,0
+"BE1",NA,29478,0.992124394184168
+"BE2","Animal Pathogen-Undefined Saprotroph",0,0
+"BE2","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"BE2","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"BE2","Dung Saprotroph-Endophyte",619,0.0211197925551878
+"BE2","Ectomycorrhizal",3639,0.124159814391484
+"BE2","Ectomycorrhizal-Wood Saprotroph",0,0
+"BE2","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",8,0.000272953700228599
+"BE2","Ectomycorrhizal;Undefined Saprotroph",0,0
+"BE2","Endophyte",544,0.0185608516155447
+"BE2","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"BE2","Endophyte-Undefined Saprotroph",0,0
+"BE2","Ericoid Mycorrhizal",0,0
+"BE2","Ericoid Mycorrhizal;Endophyte",47,0.00160360298884302
+"BE2","Fungal Parasite",29,0.00098945716332867
+"BE2","Fungal Parasite;Lichen Parasite",0,0
+"BE2","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"BE2","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"BE2","Lichenized",336,0.0114640554096011
+"BE2","Litter Saprotroph",0,0
+"BE2","Litter Saprotroph;Undefined Saprotroph",0,0
+"BE2","Orchid Mycorrhizal",580,0.0197891432665734
+"BE2","Plant Pathogen",699,0.0238493295574738
+"BE2","Plant Pathogen;Animal Pathogen;Endophyte",10,0.000341192125285748
+"BE2","Soil Saprotroph",10,0.000341192125285748
+"BE2","Undefined Saprotroph",3014,0.102835306561125
+"BE2","Wood Saprotroph",0,0
+"BE2",NA,19774,0.674673308540039
+"BE3","Animal Pathogen-Undefined Saprotroph",0,0
+"BE3","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"BE3","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"BE3","Dung Saprotroph-Endophyte",69,0.00239824823607104
+"BE3","Ectomycorrhizal",1063,0.0369469257238191
+"BE3","Ectomycorrhizal-Wood Saprotroph",0,0
+"BE3","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"BE3","Ectomycorrhizal;Undefined Saprotroph",0,0
+"BE3","Endophyte",1251,0.0434812832365924
+"BE3","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",34,0.00118174550762921
+"BE3","Endophyte-Undefined Saprotroph",0,0
+"BE3","Ericoid Mycorrhizal",0,0
+"BE3","Ericoid Mycorrhizal;Endophyte",66,0.00229397657363317
+"BE3","Fungal Parasite",0,0
+"BE3","Fungal Parasite;Lichen Parasite",0,0
+"BE3","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"BE3","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"BE3","Lichenized",15,0.000521358312189357
+"BE3","Litter Saprotroph",0,0
+"BE3","Litter Saprotroph;Undefined Saprotroph",0,0
+"BE3","Orchid Mycorrhizal",246,0.00855027631990546
+"BE3","Plant Pathogen",289,0.0100448368148483
+"BE3","Plant Pathogen;Animal Pathogen;Endophyte",4,0.000139028883250495
+"BE3","Soil Saprotroph",0,0
+"BE3","Undefined Saprotroph",1315,0.0457057453686003
+"BE3","Wood Saprotroph",0,0
+"BE3",NA,24419,0.848736575023461
+"BE4","Animal Pathogen-Undefined Saprotroph",0,0
+"BE4","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"BE4","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"BE4","Dung Saprotroph-Endophyte",22,0.000676902249161564
+"BE4","Ectomycorrhizal",420,0.0129226793021753
+"BE4","Ectomycorrhizal-Wood Saprotroph",0,0
+"BE4","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"BE4","Ectomycorrhizal;Undefined Saprotroph",0,0
+"BE4","Endophyte",857,0.0263684194332482
+"BE4","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"BE4","Endophyte-Undefined Saprotroph",0,0
+"BE4","Ericoid Mycorrhizal",11,0.000338451124580782
+"BE4","Ericoid Mycorrhizal;Endophyte",42,0.00129226793021753
+"BE4","Fungal Parasite",7,0.000215377988369589
+"BE4","Fungal Parasite;Lichen Parasite",0,0
+"BE4","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"BE4","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"BE4","Lichenized",595,0.018307129011415
+"BE4","Litter Saprotroph",8,0.000246146272422387
+"BE4","Litter Saprotroph;Undefined Saprotroph",0,0
+"BE4","Orchid Mycorrhizal",57,0.00175379219100951
+"BE4","Plant Pathogen",107,0.00329220639364943
+"BE4","Plant Pathogen;Animal Pathogen;Endophyte",18,0.000553829112950371
+"BE4","Soil Saprotroph",0,0
+"BE4","Undefined Saprotroph",2293,0.0705516753330667
+"BE4","Wood Saprotroph",0,0
+"BE4",NA,28064,0.863481123657734
+"BE5","Animal Pathogen-Undefined Saprotroph",0,0
+"BE5","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"BE5","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"BE5","Dung Saprotroph-Endophyte",0,0
+"BE5","Ectomycorrhizal",364,0.0102489019033675
+"BE5","Ectomycorrhizal-Wood Saprotroph",0,0
+"BE5","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"BE5","Ectomycorrhizal;Undefined Saprotroph",0,0
+"BE5","Endophyte",200,0.00563126478207005
+"BE5","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"BE5","Endophyte-Undefined Saprotroph",0,0
+"BE5","Ericoid Mycorrhizal",0,0
+"BE5","Ericoid Mycorrhizal;Endophyte",0,0
+"BE5","Fungal Parasite",0,0
+"BE5","Fungal Parasite;Lichen Parasite",0,0
+"BE5","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",78,0.00219619326500732
+"BE5","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"BE5","Lichenized",498,0.0140218493073544
+"BE5","Litter Saprotroph",0,0
+"BE5","Litter Saprotroph;Undefined Saprotroph",0,0
+"BE5","Orchid Mycorrhizal",8,0.000225250591282802
+"BE5","Plant Pathogen",0,0
+"BE5","Plant Pathogen;Animal Pathogen;Endophyte",0,0
+"BE5","Soil Saprotroph",0,0
+"BE5","Undefined Saprotroph",362,0.0101925892555468
+"BE5","Wood Saprotroph",8,0.000225250591282802
+"BE5",NA,33998,0.957258700304088
+"BE6","Animal Pathogen-Undefined Saprotroph",0,0
+"BE6","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",24,0.000733406674000733
+"BE6","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"BE6","Dung Saprotroph-Endophyte",7,0.000213910279916881
+"BE6","Ectomycorrhizal",607,0.0185490771299352
+"BE6","Ectomycorrhizal-Wood Saprotroph",0,0
+"BE6","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"BE6","Ectomycorrhizal;Undefined Saprotroph",243,0.00742574257425743
+"BE6","Endophyte",631,0.0192824838039359
+"BE6","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"BE6","Endophyte-Undefined Saprotroph",0,0
+"BE6","Ericoid Mycorrhizal",4,0.000122234445666789
+"BE6","Ericoid Mycorrhizal;Endophyte",210,0.00641730839750642
+"BE6","Fungal Parasite",0,0
+"BE6","Fungal Parasite;Lichen Parasite",57,0.00174184085075174
+"BE6","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"BE6","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"BE6","Lichenized",0,0
+"BE6","Litter Saprotroph",0,0
+"BE6","Litter Saprotroph;Undefined Saprotroph",0,0
+"BE6","Orchid Mycorrhizal",157,0.00479770199242146
+"BE6","Plant Pathogen",88,0.00268915780466936
+"BE6","Plant Pathogen;Animal Pathogen;Endophyte",41,0.00125290306808459
+"BE6","Soil Saprotroph",0,0
+"BE6","Undefined Saprotroph",3199,0.0977569979220144
+"BE6","Wood Saprotroph",259,0.00791468035692458
+"BE6",NA,27197,0.831102554699914
+"BE7","Animal Pathogen-Undefined Saprotroph",0,0
+"BE7","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"BE7","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"BE7","Dung Saprotroph-Endophyte",2,0.000131285282919785
+"BE7","Ectomycorrhizal",11,0.000722069056058816
+"BE7","Ectomycorrhizal-Wood Saprotroph",0,0
+"BE7","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"BE7","Ectomycorrhizal;Undefined Saprotroph",0,0
+"BE7","Endophyte",228,0.0149665222528555
+"BE7","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"BE7","Endophyte-Undefined Saprotroph",20,0.00131285282919785
+"BE7","Ericoid Mycorrhizal",0,0
+"BE7","Ericoid Mycorrhizal;Endophyte",10,0.000656426414598923
+"BE7","Fungal Parasite",0,0
+"BE7","Fungal Parasite;Lichen Parasite",0,0
+"BE7","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"BE7","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"BE7","Lichenized",54,0.00354470263883419
+"BE7","Litter Saprotroph",0,0
+"BE7","Litter Saprotroph;Undefined Saprotroph",0,0
+"BE7","Orchid Mycorrhizal",143,0.00938689772876461
+"BE7","Plant Pathogen",130,0.008533543389786
+"BE7","Plant Pathogen;Animal Pathogen;Endophyte",38,0.00249442037547591
+"BE7","Soil Saprotroph",0,0
+"BE7","Undefined Saprotroph",1006,0.0660364973086517
+"BE7","Wood Saprotroph",0,0
+"BE7",NA,13592,0.892214782722857
+"HC1","Animal Pathogen-Undefined Saprotroph",0,0
+"HC1","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HC1","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",3,0.00040794125645907
+"HC1","Dung Saprotroph-Endophyte",0,0
+"HC1","Ectomycorrhizal",89,0.0121022572749524
+"HC1","Ectomycorrhizal-Wood Saprotroph",0,0
+"HC1","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"HC1","Ectomycorrhizal;Undefined Saprotroph",0,0
+"HC1","Endophyte",57,0.00775088387272233
+"HC1","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HC1","Endophyte-Undefined Saprotroph",0,0
+"HC1","Ericoid Mycorrhizal",0,0
+"HC1","Ericoid Mycorrhizal;Endophyte",51,0.00693500135980419
+"HC1","Fungal Parasite",23,0.00312754963285287
+"HC1","Fungal Parasite;Lichen Parasite",0,0
+"HC1","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"HC1","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"HC1","Lichenized",117,0.0159097090019037
+"HC1","Litter Saprotroph",0,0
+"HC1","Litter Saprotroph;Undefined Saprotroph",0,0
+"HC1","Orchid Mycorrhizal",11,0.00149578460701659
+"HC1","Plant Pathogen",261,0.0354908893119391
+"HC1","Plant Pathogen;Animal Pathogen;Endophyte",30,0.0040794125645907
+"HC1","Soil Saprotroph",0,0
+"HC1","Undefined Saprotroph",981,0.133396790862116
+"HC1","Wood Saprotroph",4,0.00054392167527876
+"HC1",NA,5727,0.778759858580364
+"HC2","Animal Pathogen-Undefined Saprotroph",0,0
+"HC2","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HC2","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"HC2","Dung Saprotroph-Endophyte",0,0
+"HC2","Ectomycorrhizal",137,0.0246004668701742
+"HC2","Ectomycorrhizal-Wood Saprotroph",0,0
+"HC2","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"HC2","Ectomycorrhizal;Undefined Saprotroph",11,0.00197521996767822
+"HC2","Endophyte",45,0.00808044532231999
+"HC2","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HC2","Endophyte-Undefined Saprotroph",0,0
+"HC2","Ericoid Mycorrhizal",0,0
+"HC2","Ericoid Mycorrhizal;Endophyte",0,0
+"HC2","Fungal Parasite",0,0
+"HC2","Fungal Parasite;Lichen Parasite",0,0
+"HC2","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"HC2","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",7,0.00125695816124978
+"HC2","Lichenized",23,0.00413000538696355
+"HC2","Litter Saprotroph",0,0
+"HC2","Litter Saprotroph;Undefined Saprotroph",0,0
+"HC2","Orchid Mycorrhizal",91,0.0163404560962471
+"HC2","Plant Pathogen",93,0.0166995869994613
+"HC2","Plant Pathogen;Animal Pathogen;Endophyte",15,0.00269348177410666
+"HC2","Soil Saprotroph",0,0
+"HC2","Undefined Saprotroph",588,0.105584485544981
+"HC2","Wood Saprotroph",0,0
+"HC2",NA,4559,0.818638893876818
+"HC3","Animal Pathogen-Undefined Saprotroph",0,0
+"HC3","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HC3","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"HC3","Dung Saprotroph-Endophyte",0,0
+"HC3","Ectomycorrhizal",452,0.0275811569441054
+"HC3","Ectomycorrhizal-Wood Saprotroph",0,0
+"HC3","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"HC3","Ectomycorrhizal;Undefined Saprotroph",0,0
+"HC3","Endophyte",269,0.0164144495972663
+"HC3","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HC3","Endophyte-Undefined Saprotroph",0,0
+"HC3","Ericoid Mycorrhizal",0,0
+"HC3","Ericoid Mycorrhizal;Endophyte",45,0.00274591164266536
+"HC3","Fungal Parasite",0,0
+"HC3","Fungal Parasite;Lichen Parasite",0,0
+"HC3","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"HC3","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"HC3","Lichenized",152,0.00927507932633634
+"HC3","Litter Saprotroph",0,0
+"HC3","Litter Saprotroph;Undefined Saprotroph",0,0
+"HC3","Orchid Mycorrhizal",383,0.0233707590920186
+"HC3","Plant Pathogen",94,0.00573590432023432
+"HC3","Plant Pathogen;Animal Pathogen;Endophyte",24,0.00146448620942153
+"HC3","Soil Saprotroph",22,0.00134244569196973
+"HC3","Undefined Saprotroph",769,0.0469245789602148
+"HC3","Wood Saprotroph",0,0
+"HC3",NA,14178,0.865145228215768
+"HC4","Animal Pathogen-Undefined Saprotroph",0,0
+"HC4","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HC4","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"HC4","Dung Saprotroph-Endophyte",0,0
+"HC4","Ectomycorrhizal",518,0.0184980180694926
+"HC4","Ectomycorrhizal-Wood Saprotroph",0,0
+"HC4","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"HC4","Ectomycorrhizal;Undefined Saprotroph",0,0
+"HC4","Endophyte",177,0.00632075134806985
+"HC4","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HC4","Endophyte-Undefined Saprotroph",0,0
+"HC4","Ericoid Mycorrhizal",0,0
+"HC4","Ericoid Mycorrhizal;Endophyte",33,0.00117844516658929
+"HC4","Fungal Parasite",0,0
+"HC4","Fungal Parasite;Lichen Parasite",0,0
+"HC4","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",235,0.00839195800449952
+"HC4","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"HC4","Lichenized",285,0.0101774809841803
+"HC4","Litter Saprotroph",0,0
+"HC4","Litter Saprotroph;Undefined Saprotroph",0,0
+"HC4","Orchid Mycorrhizal",723,0.0258186622861836
+"HC4","Plant Pathogen",57,0.00203549619683605
+"HC4","Plant Pathogen;Animal Pathogen;Endophyte",8,0.00028568367674892
+"HC4","Soil Saprotroph",0,0
+"HC4","Undefined Saprotroph",1678,0.0599221511980859
+"HC4","Wood Saprotroph",0,0
+"HC4",NA,24289,0.867371353069314
+"HC5","Animal Pathogen-Undefined Saprotroph",0,0
+"HC5","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HC5","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"HC5","Dung Saprotroph-Endophyte",0,0
+"HC5","Ectomycorrhizal",143,0.00509622238061297
+"HC5","Ectomycorrhizal-Wood Saprotroph",0,0
+"HC5","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"HC5","Ectomycorrhizal;Undefined Saprotroph",0,0
+"HC5","Endophyte",176,0.00627227369921597
+"HC5","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HC5","Endophyte-Undefined Saprotroph",0,0
+"HC5","Ericoid Mycorrhizal",0,0
+"HC5","Ericoid Mycorrhizal;Endophyte",5,0.000178189593727726
+"HC5","Fungal Parasite",0,0
+"HC5","Fungal Parasite;Lichen Parasite",3,0.000106913756236636
+"HC5","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"HC5","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"HC5","Lichenized",0,0
+"HC5","Litter Saprotroph",0,0
+"HC5","Litter Saprotroph;Undefined Saprotroph",0,0
+"HC5","Orchid Mycorrhizal",106,0.0037776193870278
+"HC5","Plant Pathogen",147,0.00523877405559515
+"HC5","Plant Pathogen;Animal Pathogen;Endophyte",0,0
+"HC5","Soil Saprotroph",0,0
+"HC5","Undefined Saprotroph",209,0.00744832501781896
+"HC5","Wood Saprotroph",0,0
+"HC5",NA,27271,0.971881682109765
+"HC6","Animal Pathogen-Undefined Saprotroph",0,0
+"HC6","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HC6","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"HC6","Dung Saprotroph-Endophyte",40,0.0021679041786353
+"HC6","Ectomycorrhizal",3266,0.177009376185573
+"HC6","Ectomycorrhizal-Wood Saprotroph",0,0
+"HC6","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"HC6","Ectomycorrhizal;Undefined Saprotroph",0,0
+"HC6","Endophyte",599,0.0324643650750637
+"HC6","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HC6","Endophyte-Undefined Saprotroph",0,0
+"HC6","Ericoid Mycorrhizal",0,0
+"HC6","Ericoid Mycorrhizal;Endophyte",19,0.00102975448485177
+"HC6","Fungal Parasite",0,0
+"HC6","Fungal Parasite;Lichen Parasite",0,0
+"HC6","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",80,0.00433580835727061
+"HC6","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"HC6","Lichenized",0,0
+"HC6","Litter Saprotroph",0,0
+"HC6","Litter Saprotroph;Undefined Saprotroph",0,0
+"HC6","Orchid Mycorrhizal",71,0.00384802991707767
+"HC6","Plant Pathogen",212,0.0114898921467671
+"HC6","Plant Pathogen;Animal Pathogen;Endophyte",4,0.00021679041786353
+"HC6","Soil Saprotroph",0,0
+"HC6","Undefined Saprotroph",2379,0.128936101024335
+"HC6","Wood Saprotroph",0,0
+"HC6",NA,11781,0.638501978212563
+"HC7","Animal Pathogen-Undefined Saprotroph",0,0
+"HC7","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HC7","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",13,0.000597371565113501
+"HC7","Dung Saprotroph-Endophyte",16,0.000735226541678155
+"HC7","Ectomycorrhizal",440,0.0202187298961492
+"HC7","Ectomycorrhizal-Wood Saprotroph",0,0
+"HC7","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",5,0.000229758294274423
+"HC7","Ectomycorrhizal;Undefined Saprotroph",0,0
+"HC7","Endophyte",557,0.0255950739821708
+"HC7","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HC7","Endophyte-Undefined Saprotroph",0,0
+"HC7","Ericoid Mycorrhizal",0,0
+"HC7","Ericoid Mycorrhizal;Endophyte",26,0.001194743130227
+"HC7","Fungal Parasite",0,0
+"HC7","Fungal Parasite;Lichen Parasite",0,0
+"HC7","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"HC7","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"HC7","Lichenized",0,0
+"HC7","Litter Saprotroph",0,0
+"HC7","Litter Saprotroph;Undefined Saprotroph",0,0
+"HC7","Orchid Mycorrhizal",109,0.00500873081518243
+"HC7","Plant Pathogen",58,0.00266519621358331
+"HC7","Plant Pathogen;Animal Pathogen;Endophyte",10,0.000459516588548847
+"HC7","Soil Saprotroph",0,0
+"HC7","Undefined Saprotroph",1192,0.0547743773550225
+"HC7","Wood Saprotroph",0,0
+"HC7",NA,19336,0.88852127561805
+"HE1","Animal Pathogen-Undefined Saprotroph",0,0
+"HE1","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HE1","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"HE1","Dung Saprotroph-Endophyte",145,0.00380477564943584
+"HE1","Ectomycorrhizal",640,0.0167934925216479
+"HE1","Ectomycorrhizal-Wood Saprotroph",0,0
+"HE1","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"HE1","Ectomycorrhizal;Undefined Saprotroph",0,0
+"HE1","Endophyte",2032,0.053319338756232
+"HE1","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HE1","Endophyte-Undefined Saprotroph",0,0
+"HE1","Ericoid Mycorrhizal",0,0
+"HE1","Ericoid Mycorrhizal;Endophyte",0,0
+"HE1","Fungal Parasite",0,0
+"HE1","Fungal Parasite;Lichen Parasite",0,0
+"HE1","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",37,0.000970873786407767
+"HE1","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"HE1","Lichenized",278,0.00729467331409079
+"HE1","Litter Saprotroph",0,0
+"HE1","Litter Saprotroph;Undefined Saprotroph",0,0
+"HE1","Orchid Mycorrhizal",603,0.0158226187352401
+"HE1","Plant Pathogen",66,0.00173182891629494
+"HE1","Plant Pathogen;Animal Pathogen;Endophyte",127,0.0033324586722645
+"HE1","Soil Saprotroph",0,0
+"HE1","Undefined Saprotroph",4068,0.106743636840724
+"HE1","Wood Saprotroph",0,0
+"HE1",NA,30114,0.790186302807662
+"HE2","Animal Pathogen-Undefined Saprotroph",0,0
+"HE2","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HE2","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"HE2","Dung Saprotroph-Endophyte",0,0
+"HE2","Ectomycorrhizal",0,0
+"HE2","Ectomycorrhizal-Wood Saprotroph",0,0
+"HE2","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"HE2","Ectomycorrhizal;Undefined Saprotroph",0,0
+"HE2","Endophyte",362,0.0383555838101293
+"HE2","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HE2","Endophyte-Undefined Saprotroph",0,0
+"HE2","Ericoid Mycorrhizal",0,0
+"HE2","Ericoid Mycorrhizal;Endophyte",14,0.00148336511972876
+"HE2","Fungal Parasite",0,0
+"HE2","Fungal Parasite;Lichen Parasite",0,0
+"HE2","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",194,0.0205552023733842
+"HE2","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"HE2","Lichenized",142,0.015045560500106
+"HE2","Litter Saprotroph",0,0
+"HE2","Litter Saprotroph;Undefined Saprotroph",0,0
+"HE2","Orchid Mycorrhizal",162,0.0171646535282899
+"HE2","Plant Pathogen",168,0.0178003814367451
+"HE2","Plant Pathogen;Animal Pathogen;Endophyte",7,0.000741682559864378
+"HE2","Soil Saprotroph",0,0
+"HE2","Undefined Saprotroph",424,0.0449247721974995
+"HE2","Wood Saprotroph",21,0.00222504767959313
+"HE2",NA,7944,0.84170375079466
+"HE3","Animal Pathogen-Undefined Saprotroph",0,0
+"HE3","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HE3","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"HE3","Dung Saprotroph-Endophyte",9,0.000319160253909713
+"HE3","Ectomycorrhizal",410,0.0145395226781092
+"HE3","Ectomycorrhizal-Wood Saprotroph",0,0
+"HE3","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"HE3","Ectomycorrhizal;Undefined Saprotroph",0,0
+"HE3","Endophyte",1358,0.0481577360899323
+"HE3","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HE3","Endophyte-Undefined Saprotroph",0,0
+"HE3","Ericoid Mycorrhizal",0,0
+"HE3","Ericoid Mycorrhizal;Endophyte",9,0.000319160253909713
+"HE3","Fungal Parasite",0,0
+"HE3","Fungal Parasite;Lichen Parasite",0,0
+"HE3","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"HE3","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"HE3","Lichenized",25,0.000886556260860314
+"HE3","Litter Saprotroph",0,0
+"HE3","Litter Saprotroph;Undefined Saprotroph",0,0
+"HE3","Orchid Mycorrhizal",259,0.00918472286251286
+"HE3","Plant Pathogen",182,0.00645412957906309
+"HE3","Plant Pathogen;Animal Pathogen;Endophyte",46,0.00163126351998298
+"HE3","Soil Saprotroph",37,0.00131210326607326
+"HE3","Undefined Saprotroph",2120,0.0751799709209546
+"HE3","Wood Saprotroph",133,0.00471647930777687
+"HE3",NA,23611,0.837299195006915
+"HE4","Animal Pathogen-Undefined Saprotroph",5,0.000142519168828207
+"HE4","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HE4","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"HE4","Dung Saprotroph-Endophyte",0,0
+"HE4","Ectomycorrhizal",1858,0.0529601231365619
+"HE4","Ectomycorrhizal-Wood Saprotroph",0,0
+"HE4","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",3,8.55115012969244e-05
+"HE4","Ectomycorrhizal;Undefined Saprotroph",0,0
+"HE4","Endophyte",385,0.010973975999772
+"HE4","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HE4","Endophyte-Undefined Saprotroph",0,0
+"HE4","Ericoid Mycorrhizal",0,0
+"HE4","Ericoid Mycorrhizal;Endophyte",0,0
+"HE4","Fungal Parasite",0,0
+"HE4","Fungal Parasite;Lichen Parasite",0,0
+"HE4","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"HE4","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"HE4","Lichenized",0,0
+"HE4","Litter Saprotroph",0,0
+"HE4","Litter Saprotroph;Undefined Saprotroph",0,0
+"HE4","Orchid Mycorrhizal",381,0.0108599606647094
+"HE4","Plant Pathogen",264,0.00752501211412935
+"HE4","Plant Pathogen;Animal Pathogen;Endophyte",0,0
+"HE4","Soil Saprotroph",0,0
+"HE4","Undefined Saprotroph",2790,0.0795256962061397
+"HE4","Wood Saprotroph",4,0.000114015335062566
+"HE4",NA,29393,0.8378131858735
+"HE5","Animal Pathogen-Undefined Saprotroph",4,0.000132021915637996
+"HE5","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HE5","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",17,0.000561093141461483
+"HE5","Dung Saprotroph-Endophyte",0,0
+"HE5","Ectomycorrhizal",59,0.00194732325566044
+"HE5","Ectomycorrhizal-Wood Saprotroph",0,0
+"HE5","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"HE5","Ectomycorrhizal;Undefined Saprotroph",0,0
+"HE5","Endophyte",192,0.0063370519506238
+"HE5","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HE5","Endophyte-Undefined Saprotroph",0,0
+"HE5","Ericoid Mycorrhizal",0,0
+"HE5","Ericoid Mycorrhizal;Endophyte",10,0.00033005478909499
+"HE5","Fungal Parasite",0,0
+"HE5","Fungal Parasite;Lichen Parasite",0,0
+"HE5","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"HE5","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"HE5","Lichenized",25,0.000825136972737474
+"HE5","Litter Saprotroph",0,0
+"HE5","Litter Saprotroph;Undefined Saprotroph",50,0.00165027394547495
+"HE5","Orchid Mycorrhizal",96,0.0031685259753119
+"HE5","Plant Pathogen",0,0
+"HE5","Plant Pathogen;Animal Pathogen;Endophyte",0,0
+"HE5","Soil Saprotroph",0,0
+"HE5","Undefined Saprotroph",13636,0.450062710409928
+"HE5","Wood Saprotroph",0,0
+"HE5",NA,16209,0.534985807644069
+"HE6","Animal Pathogen-Undefined Saprotroph",0,0
+"HE6","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HE6","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",0,0
+"HE6","Dung Saprotroph-Endophyte",0,0
+"HE6","Ectomycorrhizal",1569,0.0857939632545932
+"HE6","Ectomycorrhizal-Wood Saprotroph",0,0
+"HE6","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",0,0
+"HE6","Ectomycorrhizal;Undefined Saprotroph",0,0
+"HE6","Endophyte",170,0.00929571303587052
+"HE6","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HE6","Endophyte-Undefined Saprotroph",0,0
+"HE6","Ericoid Mycorrhizal",0,0
+"HE6","Ericoid Mycorrhizal;Endophyte",38,0.00207786526684164
+"HE6","Fungal Parasite",0,0
+"HE6","Fungal Parasite;Lichen Parasite",0,0
+"HE6","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",0,0
+"HE6","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"HE6","Lichenized",0,0
+"HE6","Litter Saprotroph",0,0
+"HE6","Litter Saprotroph;Undefined Saprotroph",0,0
+"HE6","Orchid Mycorrhizal",354,0.0193569553805774
+"HE6","Plant Pathogen",16,0.000874890638670166
+"HE6","Plant Pathogen;Animal Pathogen;Endophyte",0,0
+"HE6","Soil Saprotroph",0,0
+"HE6","Undefined Saprotroph",525,0.0287073490813648
+"HE6","Wood Saprotroph",371,0.0202865266841645
+"HE6",NA,15245,0.833606736657918
+"HE7","Animal Pathogen-Undefined Saprotroph",0,0
+"HE7","Animal Pathogen-Undefined Saprotroph;Animal Pathogen",0,0
+"HE7","Animal Pathogen;Endophyte-Plant Pathogen;Plant Pathogen",7,0.000563470981244466
+"HE7","Dung Saprotroph-Endophyte",0,0
+"HE7","Ectomycorrhizal",38,0.00305884246961281
+"HE7","Ectomycorrhizal-Wood Saprotroph",139,0.0111889237704258
+"HE7","Ectomycorrhizal;Ectomycorrhizal-Undefined Saprotroph;Wood Saprotroph;Undefined Saprotroph",4,0.00032198341785398
+"HE7","Ectomycorrhizal;Undefined Saprotroph",0,0
+"HE7","Endophyte",212,0.017065121146261
+"HE7","Endophyte-Fungal Parasite-Plant Pathogen;Endophyte;Animal Pathogen;Endophyte-Plant Pathogen",0,0
+"HE7","Endophyte-Undefined Saprotroph",0,0
+"HE7","Ericoid Mycorrhizal",0,0
+"HE7","Ericoid Mycorrhizal;Endophyte",0,0
+"HE7","Fungal Parasite",0,0
+"HE7","Fungal Parasite;Lichen Parasite",0,0
+"HE7","Leaf Saprotroph-Plant Pathogen-Undefined Saprotroph-Wood Saprotroph;Litter Saprotroph;Leaf Saprotroph",7,0.000563470981244466
+"HE7","Leaf Saprotroph-Wood Saprotroph;Bryophyte Parasite-Leaf Saprotroph-Wood Saprotroph;Wood Saprotroph",0,0
+"HE7","Lichenized",260,0.0209289221605087
+"HE7","Litter Saprotroph",0,0
+"HE7","Litter Saprotroph;Undefined Saprotroph",0,0
+"HE7","Orchid Mycorrhizal",79,0.00635917250261612
+"HE7","Plant Pathogen",0,0
+"HE7","Plant Pathogen;Animal Pathogen;Endophyte",14,0.00112694196248893
+"HE7","Soil Saprotroph",92,0.00740561861064155
+"HE7","Undefined Saprotroph",2311,0.186025919665137
+"HE7","Wood Saprotroph",0,0
+"HE7",NA,9260,0.745391612331965
