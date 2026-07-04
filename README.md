@@ -76,7 +76,9 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 - rarefied_ITS.RDS
 - FullDataHits_curated.csv
 - curated_flux.csv
-
+- Latnja_Browning_ITS_taxonomy_ASVlabelled.csv
+- Latnja_Browning_ITS_ASVs_ASVlabelled.csv
+- Metadata.csv
 
 #### Metagenomic 
 
@@ -230,6 +232,14 @@ Produces fungal (ITS2) relative abundance figures and evaluates vegetation type 
 
 - Generates:
   - Figure S6.  Relative abundance of fungal (ITS2) taxa at the genus and family levels 
+
+##### browning_fungaltraits.R
+
+Assigns fungal functional guilds to ITS2 amplicon data using the FungalTraits database, summarizes guild abundance and prevalence, and tests broad fungal guild composition among vegetation type and browning status using NMDS, PERMANOVA, and PERMDISP.
+
+- Generates:
+  -  Latnja_Browning_ITS_taxonomy_guild.csv
+  -  Table S18. Abundance and prevalence of broad fungal functional guilds identified from ITS2 amplicon sequencing using the FungalTraits database
 
 #### Shotgun metagenomics
 
