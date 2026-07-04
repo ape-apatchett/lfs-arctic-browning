@@ -224,6 +224,13 @@ Performs differential abundance analysis of fungal ITS2 taxa using ANCOM-BC2 and
   - Figure S7. Structural-zero analysis of ITS2 amplicon sequencing data using ANCOM-BC2
   - Table S17. Structural zero detection by group for each fungal genus (ITS2)
 
+##### browning_ITS2_taxonomy.R
+
+Produces fungal (ITS2) relative abundance figures and evaluates vegetation type and browning effects on the abundance of the dominant fungal phyla using negative binomial generalized linear models.
+
+- Generates:
+  - Figure S6.  Relative abundance of fungal (ITS2) taxa at the genus and family levels 
+
 #### Shotgun metagenomics
 
 ##### trimmomatic_automate.sh
