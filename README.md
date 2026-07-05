@@ -84,7 +84,9 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 - KO_orthology.tsv
 - kegg_map.csv
+- fam-substrate-mapping-08262025.csv (file can be dowloaded from https://run-dbcan.readthedocs.io/en/latest/getting_started/database_description.html)
 - metagenomic_browning_KEGG_ko_counts.tsv
+- metagenomic_browning_CAZy_counts.tsv
 - browning_combined_nohuman_sequence_counts.txt
 
 ## Scripts
@@ -274,3 +276,7 @@ Analysis of metagenomic KEGG orthologs, including community composition, differe
   - Table S22. Differentially abundant KEGG orthologs identified by DESeq2 (adjusted P < 0.1) for the CB vs CH (Cassiope Browned vs Cassiope Healthy) and EH vs CH (Empetrum Healthy vs Cassiope Healthy) contrasts
   - Table S23. Differentially abundant nitrogen metabolism KEGG orthologs identified by DESeq2
   - Table S24. Differentially abundant methane metabolism KEGG orthologs identified by DESeq2
+
+##### browning_functional_profiles_cazy.R
+
+
