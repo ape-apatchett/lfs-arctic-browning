@@ -280,10 +280,12 @@ Analysis of metagenomic KEGG orthologs, including community composition, differe
 
 ##### browning_functional_profiles_cazy.R
 
+Analysis of metagenomic CAZyme families, including community composition, differential abundance (DESeq2), and CAZy family heatmap visualizations.
+
 - Generates:
-  - Figure S10.
-  - Table S25.
-  - Table S26.  
+  - Figure S10. Principal coordinates analysis (PCoA) of CAZy family composition based on Bray–Curtis dissimilarity of relative abundances.
+  - Table S25. Differentially abundant CAZy families identified by DESeq2 (nominal P < 0.05) for the vegetation type (Empetrum vs Cassiope) and health status (Healthy vs Browned) contrasts. 
+  - Table S26. Differentially abundant CAZy families identified by DESeq2 (nominal P < 0.05) for the group contrasts CB vs CH (Cassiope Browned vs Cassiope Healthy) and EH vs CH (Empetrum Healthy vs Cassiope Healthy). 
 
 ##### browning_functional_profiles_path_abund_and_cov.R
 
