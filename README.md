@@ -136,6 +136,11 @@ Analyzes soil temperature, moisture, carbon, nitrogen, pH, and organic matter us
 
 ### Microbial
 
+##### browning_sequencing_depth.R
+
+- Generates:
+  - Figure S1. Sequencing depths for amplicon and shotgun metagenomics data.
+
 #### qPCR
 
 ##### browning_qPCR.R
