@@ -271,7 +271,8 @@ Extracts selected functional annotation categories (e.g., KEGG, GO, CAZy, PFAM) 
 Analysis of metagenomic KEGG orthologs, including community composition, differential abundance (DESeq2), and targeted nitrogen and methane metabolism analyses.
 
 - Generates:
-  - Figure 5. Differentially abundant KEGG orthologs, pathway abundance, and coverage 
+  - Figure 5A. Differentially abundant KEGG orthologs, log2 fold changes of KEGG orthologs identified using DESeq2 with an additive model including vegetation type and health status
+  - Figure 5B. Differentially abundant KEGG orthologs, log2 fold changes of KEGG orthologs identified using DESeq2 with a three-level vegetation-status group model (EB plots removed).
   - Table S21. Differentially abundant KEGG orthologs by DESeq2 (adjusted P < 0.1) for vegetation type (Empetrum vs Cassiope) and health status (Healthy vs Browned)
   - Table S22. Differentially abundant KEGG orthologs identified by DESeq2 (adjusted P < 0.1) for the CB vs CH (Cassiope Browned vs Cassiope Healthy) and EH vs CH (Empetrum Healthy vs Cassiope Healthy) contrasts
   - Table S23. Differentially abundant nitrogen metabolism KEGG orthologs identified by DESeq2
@@ -279,4 +280,13 @@ Analysis of metagenomic KEGG orthologs, including community composition, differe
 
 ##### browning_functional_profiles_cazy.R
 
+- Generates:
+  - Figure S10.
+  - Table S25.
+  - Table S26.  
 
+##### browning_functional_profiles_path_abund_and_cov.R
+
+- Generates:
+  - Figure 5C. Heatmap of the top25 KEGG pathways by abundance relative to healthy plots
+  - Figure 5D. Heatmap of the top25 KEGG pathways coverage relative to healthy plots 
