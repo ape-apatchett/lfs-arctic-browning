@@ -296,4 +296,5 @@ Analysis of metagenomic CAZyme families, including community composition, differ
 
 - Generates:
   - Figure 5C. Heatmap of the top25 KEGG pathways by abundance relative to healthy plots
-  - Figure 5D. Heatmap of the top25 KEGG pathways coverage relative to healthy plots 
+  - Figure 5D. Heatmap of the top25 KEGG pathways coverage relative to healthy plots
+  - Table S27. KEGG pathways showing significant vegetation type or health-status effects on pathway abundance (FDR < 0.10)
