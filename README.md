@@ -138,6 +138,8 @@ Analyzes soil temperature, moisture, carbon, nitrogen, pH, and organic matter us
 
 ##### browning_sequencing_depth.R
 
+Summarizes sequencing depth for bacterial (16S rRNA gene), fungal (ITS2 rRNA gene), and shotgun metagenomic datasets.
+
 - Generates:
   - Figure S1. Sequencing depths for amplicon and shotgun metagenomics data.
 
@@ -145,7 +147,7 @@ Analyzes soil temperature, moisture, carbon, nitrogen, pH, and organic matter us
 
 ##### browning_qPCR.R
 
-Analyzes bacterial (16S) and fungal (18S) gene copy abundances and 18S:16S gene copy ratios using generalized linear models (GLMs)
+Analyzes bacterial (16S) and fungal (18S) gene copy abundances and 18S:16S gene copy ratios using generalized linear models (GLMs).
 
 - Table S11. Mean gene copy abundances
 - Table S12. Pairwise differences for soil 18S gene copies and 18S:16S gene copy ratios
@@ -295,6 +297,8 @@ Analysis of metagenomic CAZyme families, including community composition, differ
 ##### browning_functional_profiles_path_abund_and_cov.R
 
 - Generates:
-  - Figure 5C. Heatmap of the top25 KEGG pathways by abundance relative to healthy plots
-  - Figure 5D. Heatmap of the top25 KEGG pathways coverage relative to healthy plots
+  - Figure 5C. Heatmap of the 40 KEGG pathways with the strongest vegetation or health effects in relative pathway abundance
+  - Figure 5D. Heatmap of the 40 KEGG pathways showing the strongest vegetation or health effects in pathway coverage
   - Table S27. KEGG pathways showing significant vegetation type or health-status effects on pathway abundance (FDR < 0.10)
+  - Table S28. 
+  - Table S29. 
