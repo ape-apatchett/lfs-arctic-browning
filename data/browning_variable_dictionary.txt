@@ -1,0 +1,187 @@
+Variable	Description	Units	Method / Notes	Appears in
+Plot	Unique identifier for each field plot	–	"Assigned during field sampling.
+Also referred to as Plot_no and Name"	"env.csv, Browning_lab_CN.csv, Browning_lab_pH.csv, Browning_lab_SM.csv, Browning_lab_SOM.csv,  Browning_lab_TOC_TN_v2.csv, Browning_SM_ST.csv, FullDataHits_curated.csv, FullDataHits_damage.csv, FullDataHits_damage_not_separated.csv, Gasflux.csv, Metadata.csv, PA_All.csv, Species_Richness.csv, Vegetation.csv, vegetation_curated.csv"
+Plot_no	Unique identifier for each field plot	–	"Assigned during field sampling.
+Also referred to as Plot and Name"	"browning_gpp_20230221.csv, curated_flux.csv"
+Group	"Combination of dominant vegetation type and health status (CH, CB, EH, EB)"	–	"Derived from Vegetation and Status.
+Also referred to as Treatment"	"Browning_SM_ST.csv, Metadata.csv, Species_Richness.csv, Vegetation.csv"
+Treatment	"Combination of dominant vegetation type and health status (CH, CB, EH, EB)"	-	"Derived from Vegetation and Status.
+Also referred to as Group"	"browning_gpp_20230221.csv, curated_flux.csv"
+Status	Plot health status determined from percentage shrub browning during vegetation surveys	–	Healthy or Browning.	"browning_gpp_20230221.csv, Browning_lab_CN.csv, Browning_lab_pH.csv, Browning_lab_SM.csv, env.csv, Browning_lab_SOM.csv, Browning_lab_TOC_TN_v2.csv, curated_flux.csv, Metadata.csv, qPCR_Browning_recalc.csv"
+Vegetation	Dominant evergreen shrub species defining the plot	–	Cassiope (Cassiope tetragona) or Empetrum (Empetrum nigrum ssp. hermaphroditum).	"browning_gpp_20230221.csv, Browning_lab_CN.csv, Browning_lab_pH.csv, Browning_lab_SM.csv, Browning_lab_SOM.csv, Browning_lab_TOC_TN_v2.csv, curated_flux.csv, env.csv, Metadata.csv, qPCR_Browning_recalc.csv"
+Gene_Copies_16S_ng	Bacterial/archaeal 16S rRNA gene copies determined by qPCR	gene copies ng?¹ DNA	qPCR.	Metadata.csv
+log_GC_16S	Log-transformed 16S gene copy number	log10(gene copies ng?¹ DNA)	Derived from Gene_Copies_16S_ng.	Metadata.csv
+gc_g_dry_soil_16S	16S rRNA gene copy number standardized to dry soil mass	gene copies g?¹ dry soil	Derived from qPCR measurements.	Metadata.csv
+SR_Total_CrypHitOnly	Total cryptogam species richness per plot	Species	Determined from point-frame vegetation surveys including direct intercept hits and presence/absence records.	"Metadata.csv, Species_Richness.csv"
+SR_All	Total plant species richness per plot.	Species	Includes vascular and non-vascular plants recorded by point-frame survey using direct intercept hits and presence/absence observations.	"Metadata.csv, Species_Richness.csv"
+SR_Cryp	Cryptogam species richness per plot	Species	Determined from point-frame vegetation surveys using direct intercept hits only.	"Metadata.csv, Species_Richness.csv"
+Northing	Plot northing coordinate	m (SWEREF 99 TM)	Measured using differential GPS (dGPS) in August 2020.	Metadata.csv
+Easting	Plot easting coordinate	m (SWEREF 99 TM)	Measured using differential GPS (dGPS) in August 2020.	Metadata.csv
+Elevation	Plot elevation above sea level	m a.s.l.	Measured using differential GPS (dGPS).	Metadata.csv
+Latitude	Geographic latitude of the plot	Decimal degrees	Calculated from SWEREF coordinates using https://latlong.mellifica.se/.	Metadata.csv
+Longitude	Geographic longitude of the plot	Decimal degrees	Calculated from SWEREF coordinates using https://latlong.mellifica.se/.	Metadata.csv
+Snow_depth_cm	Snow depth	cm	Measured in late winter 2021.	Metadata.csv
+ST_avg_NGS	Mean soil temperature during the NGS sampling campaign	°C	Handheld measurements to ~5 cm depth. Four measurements per plot collected daily from 31 July–7 August 2020 (3 and 6 August not sampled).	Metadata.csv
+SM_avg_NGS	Mean soil moisture during the NGS sampling campaign	m³ m?³	Handheld volumetric water content (VWC) measurements to ~5 cm depth. Four measurements per plot collected daily from 30 July–7 August 2020 (3 and 6 August not sampled).	Metadata.csv
+ST_avg_gasflux	Mean soil temperature during the gas flux campaign	°C	Handheld measurements to ~5 cm depth. Four measurements per plot collected before gas flux measurements in August 2021.	Metadata.csv
+SM_avg_gasflux	Mean soil moisture during the gas flux campaign	m³ m?³	Handheld volumetric water content (VWC) measurements to ~5 cm depth. Four measurements per plot collected before gas flux measurements in August 2021.	Metadata.csv
+gene_copies_18S	Fungal 18S rRNA gene copy number	gene copies ng?¹ DNA	Quantified by quantitative PCR (qPCR).	Metadata.csv
+log_gc_18S	Log-transformed 18S rRNA gene copy number	log10(gene copies ng?¹ DNA)	Derived from gene_copies_18S.	Metadata.csv
+gc_g_dry_soil_18S	18S rRNA gene copy number standardized to dry soil mass	gene copies g?¹ dry soil	Derived from qPCR measurements.	Metadata.csv
+FB_ratio	Fungal-to-bacterial abundance ratio	–	Calculated as the ratio of 18S to 16S gene copy numbers.	Metadata.csv
+N_percent_core_soil_sample	Total nitrogen concentration in soil cores	% dry weight	Determined by isotope ratio mass spectrometry (IRMS) from soil cores collected in August 2020.	Metadata.csv
+delta_15N_core_soil_sample	Stable nitrogen isotope composition (?¹?N)	‰	Determined by IRMS from soil cores collected in August 2020.	Metadata.csv
+C_percent_core_soil_sample	Total carbon concentration in soil cores	% dry weight	Determined by IRMS from soil cores collected in August 2020.	Metadata.csv
+delta_13C_core_soil_sample	Stable carbon isotope composition (?¹³C)	‰	Determined by IRMS from soil cores collected in August 2020.	Metadata.csv
+delta_18O_core_soil_sample	Stable oxygen isotope composition (?¹?O)	‰	Determined by IRMS from soil cores collected in August 2020.	Metadata.csv
+pH_H2O_BSC_soil_sample_2020	pH of biological soil crust samples	pH	Measured in a 1:5 soil:water suspension from BSC samples collected in August 2020.	Metadata.csv
+pH_H2O_core_soil_sample_2020	pH of soil core samples	pH	Measured in a 1:5 soil:water suspension from 10 cm soil cores collected in August 2020.	Metadata.csv
+GWC_BSC_2020	Gravimetric water content of biological soil crust samples	g g?¹ dry soil	Determined by oven drying at 105 °C for 48 h. Samples collected in August 2020.	Metadata.csv
+LOI_BSC_2020	Organic matter content of biological soil crust samples	%	Determined by loss-on-ignition at 550 °C for 6 h. Samples collected in August 2020.	Metadata.csv
+LOI_core_2020	Organic matter content of soil core samples	%	Determined by loss-on-ignition at 550 °C for 6 h. Samples collected in August 2020.	Metadata.csv
+TOC_adj_core_2020	Total dissolved organic carbon in soil cores	mg L?¹	Measured as non-purgeable organic carbon using a Shimadzu TOC-L analyzer. Samples collected in August 2020.	Metadata.csv
+TN_adj_core_2020	Total dissolved nitrogen in soil cores	mg L?¹	Measured using a Shimadzu TNM-L unit. Samples collected in August 2020.	Metadata.csv
+TOC_adj_BSC_2020	Total dissolved organic carbon in biological soil crust samples	mg L?¹	Measured as non-purgeable organic carbon using a Shimadzu TOC-L analyzer. Samples collected in August 2020.	Metadata.csv
+TN_adj_BSC_2020	Total dissolved nitrogen in biological soil crust samples	mg L?¹	Measured using a Shimadzu TNM-L unit. Samples collected in August 2020.	Metadata.csv
+Ct_DL	Cassiope tetragona low damage hits	cells per plot	point-frame survey	FullDataHits_damage.csv
+Ct_DH	Cassiope tetragona high damage hits	cells per plot	point-frame survey	FullDataHits_damage.csv
+Ct_DM	Cassiope tetragona medium damage hits	cells per plot	point-frame survey	FullDataHits_damage.csv
+En_DL	Empetrum nigrum low damage hits	cells per plot	point-frame survey	FullDataHits_damage.csv
+En_DH	Empetrum nigrum high damage hits	cells per plot	point-frame survey	FullDataHits_damage.csv
+En_DM	Empetrum nigrum medium damage hits	cells per plot	point-frame survey	FullDataHits_damage.csv
+Date	Date of measurement/collection	-	-	"browning_gpp_20230221.csv, Browning_SM_ST.csv, curated_flux.csv, Latnja_Browning_FluxCalRoutput_ALL_20230221.csv"
+Year	Year of measurement/collection	-	-	"browning_gpp_20230221.csv, Browning_lab_CN.csv, Browning_lab_pH.csv, Browning_lab_SM.csv, Browning_lab_SOM.csv, Browning_lab_TOC_TN_v2.csv, curated_flux.csv"
+Month	Month of measurement/collection	-	-	"browning_gpp_20230221.csv, curated_flux.csv"
+Replicate	number of repeated measurements taken during a campaign	per plot	-	"browning_gpp_20230221.csv, Latnja_Browning_FluxCalRoutput_ALL_20230221.csv, curated_flux.csv"
+Light	gas flux measurement taken with clear chamber 	-	Gas flux measurement	browning_gpp_20230221.csv
+Dark	gas flux measurement taken with dark chamber 	-	Gas flux measurement	browning_gpp_20230221.csv
+Start	Start time of the linear portion of the chamber closure used to estimate the gas flux	s	Determined automatically by the FluxCalR package from the 4-minute chamber closure time series	Latnja_Browning_FluxCalRoutput_ALL_20230221.csv
+End	End time of the linear portion of the chamber closure used to estimate the gas flux	s	Determined automatically by the FluxCalR package from the 4-minute chamber closure time series	Latnja_Browning_FluxCalRoutput_ALL_20230221.csv
+Gas	Greenhouse gas measured during the chamber closure	-	Carbon dioxide (CO?) or methane (CH?).	Latnja_Browning_FluxCalRoutput_ALL_20230221.csv
+Slope	Slope of the linear regression fitted to the selected portion of the chamber concentration time series	ppm s?¹	Estimated by the FluxCalR package and used to calculate the gas flux.	Latnja_Browning_FluxCalRoutput_ALL_20230221.csv
+R2	Coefficient of determination (R²) for the fitted linear regression	-	Indicates the goodness-of-fit of the selected linear regression used to estimate the gas flux.	Latnja_Browning_FluxCalRoutput_ALL_20230221.csv
+Ta	Air temperature within the chamber during the flux measurement	°C	Used by the FluxCalR package when calculating gas flux.	Latnja_Browning_FluxCalRoutput_ALL_20230221.csv
+Flux	Estimated greenhouse gas flux calculated from the linear slope	?mol m?² s?¹	Calculated by the FluxCalR package from the selected linear regression. This value was used in all downstream gas flux analyses.	Latnja_Browning_FluxCalRoutput_ALL_20230221.csv
+Measurement	Specifies Light or Dark gas flux measurement	-	Gas flux measurement	Latnja_Browning_FluxCalRoutput_ALL_20230221.csv
+Pressure_mbar	Atmospheric pressure recorded for the day of gas flux measurements	mbar	Recorded once per day at the Latnjajaure Field Station and used in gas flux calculations.	"curated_flux.csv, Latnja_Browning_FluxCalRoutput_ALL_20230221.csv"
+PAR_in	Photosynthetically active radiation (PAR) inside the chamber during the gas flux measurement	?mol photons m?² s?¹	Instantaneous measurement recorded by the chamber-mounted PAR sensor during each chamber closure.	"curated_flux.csv, Latnja_Browning_FluxCalRoutput_ALL_20230221.csv"
+PAR_out	Photosynthetically active radiation (PAR) outside the chamber during the gas flux measurement	?mol photons m?² s?¹	Instantaneous measurement recorded by the external PAR sensor during each chamber closure.	"curated_flux.csv, Latnja_Browning_FluxCalRoutput_ALL_20230221.csv"
+Air_temp	Ambient air temperature 	°C	"Measured immediately outside the plot using a temperature sensor when available. If the sensor was unavailable, air temperature was measured manually once per plot during each set of triplicate chamber measurements."	"Browning_SM_ST.csv, curated_flux.csv, Latnja_Browning_FluxCalRoutput_ALL_20230221.csv"
+Windspeed_ms	Field conditions during gas flux measurement	-	Estimated in the field	"curated_flux.csv, Latnja_Browning_FluxCalRoutput_ALL_20230221.csv"
+Run	Analytical run number	-	"applicable to sample runs on the isotope ratio mass spectrometer (Sercon Group 20-22), and the TOC-L and TNM-L unit (Shimazu Analytical)"	"Browning_lab_CN.csv, Browning_lab_TOC_TN_v2.csv"
+Sample_type	Referring to what type of sample was collected	-	"Soil core (Core), biological soil crust (BSC), bulk density core (BDC) "	"Browning_lab_CN.csv, Browning_lab_pH.csv, Browning_lab_SM.csv, Browning_lab_SOM.csv, Browning_lab_TOC_TN_v2.csv"
+N_percent	Total nitrogen concentration 	% dry weight	Determined by isotope ratio mass spectrometry (IRMS) from samples (soil cores and BSCs) collected in August 2020. Note: this is the same data that is found in Metadata.csv except in that file the column name specifies whether it was core or BSC.	Browning_lab_CN.csv
+delta_15N 	Stable nitrogen isotope composition (?¹?N)	‰	Determined by isotope ratio mass spectrometry (IRMS) from samples (soil cores and BSCs) collected in August 2020. Note: this is the same data that is found in Metadata.csv except in that file the column name specifies whether it was core or BSC.	Browning_lab_CN.csv
+C_percent 	Total carbon concentration 	% dry weight	Determined by isotope ratio mass spectrometry (IRMS) from samples (soil cores and BSCs) collected in August 2020. Note: this is the same data that is found in Metadata.csv except in that file the column name specifies whether it was core or BSC.	Browning_lab_CN.csv
+delta_13C 	Stable carbon isotope composition (?¹³C)	‰	Determined by isotope ratio mass spectrometry (IRMS) from samples (soil cores and BSCs) collected in August 2020. Note: this is the same data that is found in Metadata.csv except in that file the column name specifies whether it was core or BSC.	Browning_lab_CN.csv
+delta_18O 	Stable oxygen isotope composition (?¹?O)	‰	Determined by isotope ratio mass spectrometry (IRMS) from samples (soil cores and BSCs) collected in August 2020. Note: this is the same data that is found in Metadata.csv except in that file the column name specifies whether it was core or BSC.	Browning_lab_CN.csv
+Sampling_date	Date of sample collection	-		"Browning_lab_pH.csv, Browning_lab_SM.csv, Browning_lab_SOM.csv"
+Processing_date	Date of sample processing in the laboratory	-		"Browning_lab_pH.csv, Browning_lab_SM.csv, Browning_lab_SOM.csv"
+Soil_dry_weight_h2o	Dry soil weight	g	used for pH measurement	Browning_lab_pH.csv
+pH_H2O	pH of sample	pH	"Measured in a 1:5 soil:water suspension from 10 cm soil cores (Core), biological soil crusts (BSC), bulk density cores (BDC)"	Browning_lab_pH.csv
+Tray_weight_g	Mass of the empty aluminum drying tray	g	Measured prior to adding the soil sample	Browning_lab_SM.csv
+Soil_wet_weight_g	Mass of the wet soil sample	g	Measured prior to oven drying. Excludes the tray weight	Browning_lab_SM.csv
+Tray_and_dry_soil_weight_g	Combined mass of the drying tray and oven-dried soil sample	g	Measured after drying at 105 °C for 48 h	Browning_lab_SM.csv
+dry_soil_weight_g	Mass of the oven-dried soil sample	g	Calculated as Tray_and_dry_soil_weight_g ? Tray_weight_g. Used to calculate gravimetric water content (GWC)	Browning_lab_SM.csv
+GWC	Gravimetric water content  	g water g?¹ dry soil	Calculated as (wet soil weight ? dry soil weight) ÷ dry soil weight after oven drying at 105 °C for 48 h.	Browning_lab_SM.csv
+g_swc_perc	Gravimetric soil water content expressed as a percentage of dry soil mass	%	Calculated as GWC × 100	Browning_lab_SM.csv
+Crucible_weight_g	Mass of the empty porcelain crucible.	g	Measured prior to adding the oven-dried soil sample.	Browning_lab_SOM.csv
+Dry_soil_weight_g	Mass of the oven-dried soil sample prior to combustion.	g	Measured after drying at 105 °C for 48 h.	Browning_lab_SOM.csv
+Crucible_+_burn_soil_weight_g	Combined mass of the crucible and soil after loss-on-ignition.	g	Measured after combustion at 550 °C for 6 h.	Browning_lab_SOM.csv
+burn_soil_weight_g	Mass of the soil remaining after loss-on-ignition.	g	Calculated as Crucible_+_burn_soil_weight_g ? Crucible_weight_g.	Browning_lab_SOM.csv
+Difference	Mass of organic matter lost during combustion.	g	Calculated as Dry_soil_weight_g ? burn_soil_weight_g.	Browning_lab_SOM.csv
+LOI	"Loss-on-ignition, representing soil organic matter content."	%	Calculated as (Difference ÷ Dry_soil_weight_g) × 100.	Browning_lab_SOM.csv
+TOC	Total dissolved organic carbon concentration.	mg L?¹	Measured as non-purgeable organic carbon using a Shimadzu TOC-L analyzer.	Browning_lab_TOC_TN_v2.csv
+TN	Total dissolved nitrogen concentration.	mg L?¹	Measured using a Shimadzu TNM-L unit.	Browning_lab_TOC_TN_v2.csv
+SampleRemaining	Availability of sample following TOC/TN analysis.	–	"Indicates whether sample remained after analysis (e.g., Yes, NSL = No Sample Left, NESL = Nearly/Not Enough Sample Left, if applicable)."	Browning_lab_TOC_TN_v2.csv
+Dilution_Factor	Dilution factor applied prior to analysis.	–	Multiplicative dilution applied to the sample before TOC/TN analysis. A value of 1 indicates no dilution.	Browning_lab_TOC_TN_v2.csv
+Soil_dry_weight	Oven-dry mass of soil used for extraction.	g	Dry soil mass used to standardize TOC and TN concentrations.	Browning_lab_TOC_TN_v2.csv
+TOC_adj	Total dissolved organic carbon standardized to dry soil mass.	mg L?¹ g?¹ dry soil	"Calculated from TOC, dilution factor, and dry soil weight. Used in downstream statistical analyses."	Browning_lab_TOC_TN_v2.csv
+TN_adj	Total dissolved nitrogen standardized to dry soil mass.	mg L?¹ g?¹ dry soil	"Calculated from TN, dilution factor, and dry soil weight. Used in downstream statistical analyses."	Browning_lab_TOC_TN_v2.csv
+Temp_1	Soil temperature measurement 1	°C	Handheld measurement to approximately 5 cm soil depth. One of four measurements collected within the plot on each sampling day.	Browning_SM_ST.csv
+Temp_2	Soil temperature measurement 2	°C	Handheld measurement to approximately 5 cm soil depth. One of four measurements collected within the plot on each sampling day.	Browning_SM_ST.csv
+Temp_3	Soil temperature measurement 3	°C	Handheld measurement to approximately 5 cm soil depth. One of four measurements collected within the plot on each sampling day.	Browning_SM_ST.csv
+Temp_4	Soil temperature measurement 4	°C	Handheld measurement to approximately 5 cm soil depth. One of four measurements collected within the plot on each sampling day.	Browning_SM_ST.csv
+SM_1	Soil moisture sensor reading 1	Sensor units	One of four handheld soil moisture measurements collected within the plot on each sampling day. Raw sensor output used to calculate volumetric soil water content (SWC).	Browning_SM_ST.csv
+SM_2	Soil moisture sensor reading 2	Sensor units	One of four handheld soil moisture measurements collected within the plot on each sampling day. Raw sensor output used to calculate volumetric soil water content (SWC).	Browning_SM_ST.csv
+SM_3	Soil moisture sensor reading 3	Sensor units	One of four handheld soil moisture measurements collected within the plot on each sampling day. Raw sensor output used to calculate volumetric soil water content (SWC).	Browning_SM_ST.csv
+SM_4	Soil moisture sensor reading 4	Sensor units	One of four handheld soil moisture measurements collected within the plot on each sampling day. Raw sensor output used to calculate volumetric soil water content (SWC).	Browning_SM_ST.csv
+V	Mean normalized soil moisture sensor output.	–	Calculated as the mean of the four raw sensor readings divided by 1000 prior to calibration.	"Browning_SM_ST.csv, curated_flux.csv"
+SWC	Volumetric soil water content.	m³ m?³	Calculated from V using the manufacturer's calibration equation for the handheld soil moisture probe.	"Browning_SM_ST.csv, curated_flux.csv"
+Date	Date of qPCR analysis	YYYY-MM-DD	Date the samples were processed and analyzed in the laboratory.	qPCR_Browning_recalc.csv
+Well_No	qPCR plate well identifier	–	Position of the sample on the qPCR plate.	qPCR_Browning_recalc.csv
+Gene	Target gene quantified by qPCR	–	Either the bacterial 16S rRNA gene or the fungal 18S rRNA gene.	qPCR_Browning_recalc.csv
+Name	Unique plot identifier	–	"Corresponds to the field plot from which the soil sample was collected.
+Also referred to as Plot and Plot_no"	qPCR_Browning_recalc.csv
+Ct	Quantification cycle (Ct) value	Cycles	Cycle threshold determined during qPCR amplification. Lower Ct values indicate greater abundance of the target gene.	qPCR_Browning_recalc.csv
+Concentration	Estimated target gene concentration in the qPCR reaction	Gene copies ?L?¹	Calculated from the qPCR standard curve.	qPCR_Browning_recalc.csv
+Working_concentration	DNA working solution concentration used for qPCR	ng ?L?¹	DNA template concentration after dilution prior to qPCR analysis.	qPCR_Browning_recalc.csv
+Well_concentration	DNA concentration in the qPCR reaction well	ng	Amount of DNA template added to each qPCR reaction.	qPCR_Browning_recalc.csv
+Gene_Copies_ng	Gene copy number standardized by DNA concentration	Gene copies ng?¹ DNA	Calculated by dividing the estimated gene copy concentration by the DNA mass added to the qPCR reaction.	qPCR_Browning_recalc.csv
+log_GC	Log??-transformed gene copy number	log??(gene copies ng?¹ DNA)	Calculated as log??(Gene_Copies_ng). Used in downstream statistical analyses.	qPCR_Browning_recalc.csv
+gc_g_dry_soil	Gene copy number standardized by dry soil mass	Gene copies g?¹ dry soil	Derived from Gene_Copies_ng and the dry soil mass used for DNA extraction. Used in downstream analyses.	qPCR_Browning_recalc.csv
+temp_avg	Soil temperature measurement	°C	Handheld measurement to approximately 5 cm soil depth. Average of four measurements collected within the plot on each sampling day.	curated_flux.csv 
+sm_avg	Soil moisture sensor reading 	Sensor units	Average of four handheld soil moisture measurements collected within the plot on each sampling day. Raw sensor output used to calculate volumetric soil water content (SWC).	curated_flux.csv 
+NEE	Net ecosystem exchange of CO? measured under transparent chamber conditions (light). Negative values indicate net CO? uptake by the ecosystem; positive values indicate net CO? release.	?mol CO? m?² s?¹	Derived from processed LI-COR gas flux measurements using the FluxCalR package.	curated_flux.csv 
+ER	"Ecosystem respiration measured under opaque chamber conditions (dark), representing total CO? released from plant and soil respiration."	?mol CO? m?² s?¹	Derived from processed LI-COR gas flux measurements using the FluxCalR package.	curated_flux.csv 
+GPP	Gross primary productivity calculated from net ecosystem exchange and ecosystem respiration (GPP = NEE ? ER using the study sign convention). More negative values indicate greater CO? uptake through photosynthesis.	?mol CO? m?² s?¹	Calculated from processed NEE and ER measurements.	curated_flux.csv 
+CH4	Methane (CH?) flux measured during chamber closure. Negative values indicate net CH? uptake by the soil; positive values indicate net CH? emission.	?mol CH? m?² s?¹	Derived from processed LI-COR gas flux measurements using the FluxCalR package from dark chamber measurements.	curated_flux.csv 
+At	Aulacomnium turgidum	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+UM6	Barbilophozia floerkei	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Dsp	Dicranum sp.	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+UM7	Gymnomitrion coralloides	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Hs	Hylocomium splendens	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+UM2	Pleurozium schreberi	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Pa	Polytrichum sp.	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Pc	Ptilidium ciliare	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Rl	Racomitrium lanuginosum	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Su	Sanionia uncinata	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+UM5	Tetralophozia setiformis	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+G1	Carex bigelowii	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+S1	Festuca rubra	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Jt	Juncus trifidus	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+La	Luzula arcuata	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Bv	Bistorta vivipara	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Dl	Diapensia lapponica	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Hcel	Huperzia selago	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Pl	Pedicularis lapponica	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Phca	Phyllodoce caerulea	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Rc	Rubus chamaemorus	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+An	Alectoria nigricans	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Ao	Alectoria ochroleuca	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Bsp	Bryoria sp.	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Cc	Cetraria cucullata	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Cd	Cetraria delisei	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Ce	Cetraria ericetorum	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Ci	Cetraria islandica	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Cn	Cetraria nivalis	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Cet sp	Cetraria sp.	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Cg	Cladonia gracilis	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Ca	Cladina arbuscula	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Cb	Cladonia borealis	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Cr	Cladonia rangiferina	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Csp	Cladonia sp.	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Cu	Cladonia uncialis	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Cp	Cladonia pyxidata	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Cv	Cladonia verticillata	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Dc	Diploschistes scruposus	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Lsp	Lobaria sp.	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Na	Nephroma arcticum	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Nsp	Nephroma sp.	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Of	Ochrolechia frigida	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Psp	Peltigera sp.	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Pp	Protopannaria pezizoides	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Sc	Solorina crocea	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Sg	Sphaerophorus globosus	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Ssp	Stereocaulon sp.	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Tv	Thamnolia vermicularis	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+UL1	Unknown lichen (black crust)	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Aa	Arctostaphylos alpinus	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Bn	Betula nana	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Ch	Cassiope hypnoides	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Ct	Cassiope tetragona	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+En	Empetrum nigrum ssp. hermaphroditum	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Sh	Salix herbacea	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Spol	Salix polaris	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Vu	Vaccinium uliginosum	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
+Vv	Vaccinium vitis-idaea	-	"species recorded during vegetation surveys of 28 permanent 1 m² plots at the browning site, Latnjajaure, Sweden (68°20?N, 18°29?E), July 2020."	
