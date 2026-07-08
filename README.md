@@ -1,17 +1,20 @@
 # lfs-arctic-browning
 
-This repository contains data and code for the manuscript: "Dominant shrub identity shapes above- and belowground ecosystem differences associated with Arctic browning". We investigate ecosystem-wide responses to Arctic browning using vegetation surveys, gas flux measurements, soil properties, and microbial community analyses.
+This repository contains data and code for the manuscript: "Dominant shrub identity shapes above- and belowground ecosystem differences associated with Arctic browning". We investigate how Arctic browning is associated with changes in vegetation, carbon exchange, soil properties, microbial communities, and microbial functional potential in subarctic tundra.
 
 The DOI for this code and data repository is managed through Zenodo [ADD here]
 
 ## Study design
 
-Field data were collected in subarctic Sweden across browning-affected and healthy tundra sites. Measurements include:
+Field data were collected from 28 healthy and browned tundra heath plots dominated by *Cassiope tetragona* or *Empetrum nigrum* subsp. *hermaphroditum* at the Latnjajaure Field Station, northern Sweden.
+
+Measurements include:
 
 - Vegetation composition and cover
-- Gas fluxes (NEE, ER, GPP, CH4)
+- CO₂ and CH₄ fluxes
 - Soil physicochemical properties
-- Microbial community structure and function
+- Soil bacterial and fungal communities
+- Shotgun metagenomic functional profiles (KEGG and CAZymes)
 
 
 ## Data
