@@ -280,8 +280,8 @@ Analysis of metagenomic KEGG orthologs, including community composition, differe
 - Generates:
   - Figure 5A. Differentially abundant KEGG orthologs, log2 fold changes of KEGG orthologs identified using DESeq2 with an additive model including vegetation type and health status
   - Figure 5B. Differentially abundant KEGG orthologs, log2 fold changes of KEGG orthologs identified using DESeq2 with a three-level vegetation-status group model (EB plots removed).
-  - Table S21. Differentially abundant KEGG orthologs by DESeq2 (adjusted P < 0.1) for vegetation type (Empetrum vs Cassiope) and health status (Healthy vs Browned)
-  - Table S22. Differentially abundant KEGG orthologs identified by DESeq2 (adjusted P < 0.1) for the CB vs CH (Cassiope Browned vs Cassiope Healthy) and EH vs CH (Empetrum Healthy vs Cassiope Healthy) contrasts
+  - Table S21. Differentially abundant KEGG orthologs identified by DESeq2 (adjusted P < 0.05) for vegetation type (Empetrum vs Cassiope) and health status (Healthy vs Browned)
+  - Table S22. Differentially abundant KEGG orthologs identified by DESeq2 (adjusted P < 0.05) for the CB vs CH (Cassiope Browned vs Cassiope Healthy) and EH vs CH (Empetrum Healthy vs Cassiope Healthy) contrasts
   - Table S23. Differentially abundant nitrogen metabolism KEGG orthologs identified by DESeq2
   - Table S24. Differentially abundant methane metabolism KEGG orthologs identified by DESeq2
 
