@@ -9,7 +9,7 @@ https://doi.org/10.5281/zenodo.21266742
 
 This release represents the reproducible analysis workflow used to generate all figures, tables, and statistical analyses presented in the manuscript.
 
-We investigate how Arctic browning is associated with changes in vegetation, carbon exchange, soil physicochemical properties, microbial communities, and microbial functional potential in subarctic tundra.
+We investigate ecosystem differences associated with Arctic browning across vegetation, carbon exchange, soil physicochemical properties, microbial communities, and microbial functional potential in subarctic tundra.
 
 ## Study design
 
