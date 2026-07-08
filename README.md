@@ -279,7 +279,7 @@ Analysis of metagenomic KEGG orthologs, including community composition, differe
 
 - Generates:
   - Figure 5A. Differentially abundant KEGG orthologs, log2 fold changes of KEGG orthologs identified using DESeq2 with an additive model including vegetation type and health status
-  - Figure 5B. Differentially abundant KEGG orthologs, log2 fold changes of KEGG orthologs identified using DESeq2 with a three-level vegetation-status group model (EB plots removed).
+  - Figure 5B. Differentially abundant KEGG orthologs, log2 fold changes of KEGG orthologs identified using DESeq2 with a three-level vegetation-status group model (EB plots removed)
   - Table S21. Differentially abundant KEGG orthologs identified by DESeq2 (adjusted P < 0.05) for vegetation type (Empetrum vs Cassiope) and health status (Healthy vs Browned)
   - Table S22. Differentially abundant KEGG orthologs identified by DESeq2 (adjusted P < 0.05) for the CB vs CH (Cassiope Browned vs Cassiope Healthy) and EH vs CH (Empetrum Healthy vs Cassiope Healthy) contrasts
   - Table S23. Differentially abundant nitrogen metabolism KEGG orthologs identified by DESeq2
@@ -290,15 +290,20 @@ Analysis of metagenomic KEGG orthologs, including community composition, differe
 Analysis of metagenomic CAZyme families, including community composition, differential abundance (DESeq2), and CAZy family heatmap visualizations.
 
 - Generates:
-  - Figure S10. Principal coordinates analysis (PCoA) of CAZy family composition based on Bray–Curtis dissimilarity of relative abundances.
-  - Table S25. Differentially abundant CAZy families identified by DESeq2 (nominal P < 0.05) for the vegetation type (Empetrum vs Cassiope) and health status (Healthy vs Browned) contrasts. 
-  - Table S26. Differentially abundant CAZy families identified by DESeq2 (nominal P < 0.05) for the group contrasts CB vs CH (Cassiope Browned vs Cassiope Healthy) and EH vs CH (Empetrum Healthy vs Cassiope Healthy). 
+  - Figure S10. Principal coordinates analysis (PCoA) of CAZy family composition based on Bray–Curtis dissimilarity of relative abundances
+  - Table S25. Differentially abundant CAZy families identified by DESeq2 (nominal P < 0.05) for the vegetation type (Empetrum vs Cassiope) and health status (Healthy vs Browned) contrasts 
+  - Table S26. Differentially abundant CAZy families identified by DESeq2 (nominal P < 0.05) for the group contrasts CB vs CH (Cassiope Browned vs Cassiope Healthy) and EH vs CH (Empetrum Healthy vs Cassiope Healthy) 
 
 ##### browning_functional_profiles_path_abund_and_cov.R
+
+Analysis of metagenomic KEGG pathways, including pathway abundance, pathway coverage, community composition, and pathway-specific linear models for vegetation type and browning.
 
 - Generates:
   - Figure 5C. Heatmap of the 40 KEGG pathways with the strongest vegetation or health effects in relative pathway abundance
   - Figure 5D. Heatmap of the 40 KEGG pathways showing the strongest vegetation or health effects in pathway coverage
-  - Table S27. KEGG pathways showing significant vegetation type or health-status effects on pathway abundance (FDR < 0.10)
-  - Table S28. 
-  - Table S29. 
+  - Figure S11. Principal coordinates analysis (PCoA) of KEGG pathway abundance based on Bray-Curtis dissimilarities
+  - Figure S12A. Heatmap of log-transformed relative abundances of pathways involved in central carbon metabolism, energy metabolism, and nutrient cycling
+  - Figure S12B. Heatmap of log-transformed pathway coverage of pathways involved in central carbon metabolism, energy metabolism, and nutrient cycling
+  - Table S27. KEGG pathways showing significant vegetation type or health-status effects identified using pathway-specific linear models (FDR < 0.10)
+  - Table S28. Vegetation type and health status associations with relative abundance of selected ecologically important KEGG pathways
+  - Table S29. Vegetation type and health status associations with pathway coverage of selected ecologically important KEGG pathways
