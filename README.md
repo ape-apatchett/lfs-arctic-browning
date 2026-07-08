@@ -2,7 +2,7 @@
 
 This repository contains data and code for the manuscript: "Dominant shrub identity shapes above- and belowground ecosystem differences associated with Arctic browning". We investigate how Arctic browning is associated with changes in vegetation, carbon exchange, soil properties, microbial communities, and microbial functional potential in subarctic tundra.
 
-The DOI for this code and data repository is managed through Zenodo [ADD here]
+An archived version of this repository is available through Zenodo: https://doi.org/10.5281/zenodo.21266742
 
 ## Study design
 
