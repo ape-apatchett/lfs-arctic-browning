@@ -16,6 +16,8 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 ## Data
 
+browning_variable_dictionary.txt --> description of column names in the data files
+
 ### Vegetation data
 
 - Browning_species_names_codes_veg_type.csv
@@ -82,6 +84,7 @@ Field data were collected in subarctic Sweden across browning-affected and healt
 
 #### Metagenomic 
 
+- Metagenomic_worflow_summary.pdf
 - KO_orthology.tsv
 - kegg_map.csv
 - fam-substrate-mapping-08262025.csv (file can be dowloaded from https://run-dbcan.readthedocs.io/en/latest/getting_started/database_description.html)
