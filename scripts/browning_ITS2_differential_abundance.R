@@ -27,11 +27,11 @@ setwd("set/your/path")
 # # Then install DelayedArray version from that release
 # BiocManager::install("DelayedArray")
 
-library(ANCOMBC); packageVersion("ANCOMBC"); citation("ANCOMBC")
-library(tidyverse); packageVersion("tidyverse"); citation("tidyverse")
-library(phyloseq); packageVersion("phyloseq"); citation("phyloseq")
-library(kableExtra); packageVersion("kableExtra"); citation("kableExtra")
-library(ggpubr); packageVersion("ggpubr"); citation("ggpubr")
+library(ANCOMBC)
+library(tidyverse)
+library(phyloseq)
+library(kableExtra)
+library(ggpubr)
 library(UpSetR)
 
 ##READ IN DATA####
@@ -286,4 +286,5 @@ status_hits_fam
 # prior to sensitivity screening, but none passed the ANCOM-BC2
 # sensitivity test and were therefore not considered differentially abundant
 
+##SESSION INFO####
 sessionInfo()
