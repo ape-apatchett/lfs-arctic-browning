@@ -15,14 +15,13 @@ setwd("set/your/path")
 
 
 ##LOAD PACKAGES####
-library(dada2); packageVersion("dada2") #sequence processing 
-library(DECIPHER); packageVersion("DECIPHER") #sequence alignment
-library(phangorn); packageVersion("phangorn") #phylogenetic tree generation
-library(ggplot2); packageVersion("ggplot2") #data visualization and analysis
-library(phyloseq); packageVersion("phyloseq") #data visualization and analysis
-library(ShortRead); packageVersion("ShortRead")
-library(Biostrings); packageVersion("Biostrings")
-
+library(dada2)
+library(DECIPHER)
+library(phangorn)
+library(ggplot2)
+library(phyloseq)
+library(ShortRead)
+library(Biostrings)
 
 
 #raw sequence reads preprocessed in shell
@@ -238,4 +237,5 @@ fitGTR <- optim.pml(fitGTR, model = "GTR", optInv = TRUE, optGamma = TRUE, rearr
 #Save R object
 saveRDS(fitGTR, "phangorn.tree.RDS")
 
+##SESSION INFO####
 sessionInfo()
