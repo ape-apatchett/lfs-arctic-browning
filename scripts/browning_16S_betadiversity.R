@@ -20,15 +20,15 @@ setwd("your/path/here")
 
 
 ##LOAD PACKAGES####
-library(tidyverse); packageVersion("tidyverse"); citation("tidyverse")
-library(phyloseq); packageVersion("phyloseq"); citation("phyloseq")
-library(vegan); packageVersion("vegan"); citation("vegan")
-library(pairwiseAdonis); packageVersion("pairwiseAdonis"); citation("pairwiseAdonis")
-library(knitr); packageVersion("knitr"); citation("knitr")
-library(kableExtra); packageVersion("kableExtra"); citation("kableExtra")
-library(sjPlot); packageVersion("sjPlot"); citation("sjPlot")
-library(ggpubr); packageVersion("ggpubr"); citation("ggpubr")
-library(corrplot); packageVersion("corrplot"); citation("corrplot")
+library(tidyverse)
+library(phyloseq)
+library(vegan)
+library(pairwiseAdonis)
+library(knitr)
+library(kableExtra)
+library(sjPlot)
+library(ggpubr)
+library(corrplot)
 
 ##READ IN DATA####
 brownR <- readRDS("rarefied_16s.RDS")
@@ -664,4 +664,5 @@ ggplot(summary_partial, aes(x = Comparison, y = r, fill = p_value < 0.05)) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
+##SESSSION INFO####
 sessionInfo()
