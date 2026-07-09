@@ -10,12 +10,12 @@
 setwd("set/your/path")
 
 ##LOAD LIBRARIES####
-library(dada2); packageVersion("dada2") #[1] v1.24.0
-library(ShortRead); packageVersion("ShortRead") #[1] v1.54.0
-library(Biostrings); packageVersion("Biostrings") #[1] v2.64.0
+library(dada2)
+library(ShortRead)
+library(Biostrings)
 
 ##SET PATH(s)####
-path <- "~/R/Browning/Data/ITS"
+path <- "~/set/your/path"
 list.files(path)
 
 #generate matched lists of the forward and reverse read files
@@ -198,4 +198,5 @@ taxa <- assignTaxonomy(seqtab.nochim,
 
 write.csv(taxa, "Latnja_Browning_ITS_taxonomy.csv")
 
+##SESSION INFO####
 sessionInfo()
