@@ -13,7 +13,7 @@ setwd("set/your/path")
 library(tidyverse)
 library(kableExtra)
 library(vegan)
-library(gllvm) #generalized linear latent variable models
+library(gllvm) 
 library(grDevices)
 library(gghighlight)
 library(ggtext)
@@ -1192,17 +1192,18 @@ corplot <- grid.arrange(img1_labeled, img2_labeled, ncol = 2, widths = c(1, 1))
 # inclusion reveals that environmental factors account for roughly 40% of the variation 
 # and co-variation in species abundances.
 
-rcov1.vegsta  <- getResidualCov(NB1.vegsta, adjust = 0)  #' With 2 covariates and a latent variable
-rcov.0 <- getResidualCov(NB1.0, adjust = 0)      #' Without covariates but 1 latent variable
+rcov1.vegsta  <- getResidualCov(NB1.vegsta, adjust = 0)  #With 2 covariates and a latent variable
+rcov.0 <- getResidualCov(NB1.0, adjust = 0)      #Without covariates but 1 latent variable
 
 
-rcov.0$trace       #' Unaccounted variation obtained by the model without covariates
-rcov1.vegsta$trace #' Unaccounted variation obtained by the model with covariates
+rcov.0$trace       #Unaccounted variation obtained by the model without covariates
+rcov1.vegsta$trace #Unaccounted variation obtained by the model with covariates
 
-#' ratio
+#ratio
 1 - rcov1.vegsta$trace / rcov.0$trace
 
-#' Of the variation explained by covariates and latent variable, about 
-#' 39.9% is explained by the covariates.
+#Of the variation explained by covariates and latent variable, about 
+#39.9% is explained by the covariates.
 
+##SESSION INFO####
 sessionInfo()
