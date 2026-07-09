@@ -18,7 +18,7 @@ library(DHARMa)
 library(emmeans)
 library(multcomp)
 library(MASS)
-library(sjPlot); packageVersion("sjPlot") #v2.8.15, Lüdecke 2023
+library(sjPlot)
 
 ##READ IN DATA####
 gf <- read.csv("Latnja_Browning_FluxCalRoutput_ALL_20230221.csv", header = TRUE)
@@ -802,3 +802,5 @@ sjPlot::tab_df(nee_m1_contrast_table)
 sjPlot::tab_df(gpp_m1_contrast_table)
 sjPlot::tab_df(ch4_m1_contrast_table)
 
+##SESSION INFO####
+sessionInfo()
