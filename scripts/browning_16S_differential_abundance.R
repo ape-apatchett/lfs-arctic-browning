@@ -27,16 +27,16 @@ setwd("set/your/path")
 # # Then install DelayedArray version from that release
 # BiocManager::install("DelayedArray")
 
-library(ANCOMBC); packageVersion("ANCOMBC"); citation("ANCOMBC")
-library(DT); packageVersion("DT"); citation("DT") 
+library(ANCOMBC)
+library(DT)
 options(DT.options = list(
   initComplete = JS("function(settings, json) {",
                     "$(this.api().table().header()).css({'background-color': 
   '#000', 'color': '#fff'});","}")))
-library(tidyverse); packageVersion("tidyverse"); citation("tidyverse")
-library(phyloseq); packageVersion("phyloseq"); citation("phyloseq")
-library(kableExtra); packageVersion("kableExtra"); citation("kableExtra")
-library(ggpubr); packageVersion("ggpubr"); citation("ggpubr")
+library(tidyverse)
+library(phyloseq)
+library(kableExtra)
+library(ggpubr)
 
 
 ##READ IN DATA####
@@ -342,4 +342,5 @@ final_plot
 ##End of Figure S5 Differential abundance of bacterial 16S taxa####
 ###################################################################
 
+##SESSION INFO####
 sessionInfo()
