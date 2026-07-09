@@ -7,14 +7,14 @@
 setwd("set/your/path")
 
 ##LOAD LIBRARIES####
-library(plotrix); packageVersion("plotrix") #v3.8.2
-library(tidyverse); packageVersion("tidyverse") #v2.0.0
-library(glmmTMB); packageVersion("glmmTMB") #v1.1.8
-library(DHARMa); packageVersion("DHARMa") #v0.4.6
-library(kableExtra); packageVersion("kableExtra") #v1.4.0
-library(emmeans); packageVersion("emmeans") #v1.10.0
-library(sjPlot); packageVersion("sjPlot") #v2.8.15
-library(ggpubr); packageVersion("ggpubr") #v0.6.0
+library(plotrix)
+library(tidyverse)
+library(glmmTMB)
+library(DHARMa)
+library(kableExtra)
+library(emmeans)
+library(sjPlot)
+library(ggpubr)
 
 #devtools::install_github("strengejacke/strengejacke")
 
@@ -2401,4 +2401,5 @@ sjPlot::tab_df(tnb_contrast_table)
 ##End of Table S10 Pairwise differences for TN in BSC samples Cassiope only####
 ###############################################################################
 
+##SESSION INFO####
 sessionInfo()
