@@ -11,18 +11,18 @@ setwd("set/your/path")
 
 
 ##LOAD PACKAGES####
-library(tidyverse); packageVersion("tidyverse"); citation("tidyverse")
-library(phyloseq); packageVersion("phyloseq"); citation("phyloseq")
-library(kableExtra); packageVersion("kableExtra"); citation("kableExtra")
-library(microbiome); packageVersion("microbiome"); citation("microbiome")
-library(DT); packageVersion("DT"); citation("DT") #interactive tables in html and markdown
-library(ggpubr); packageVersion("ggpubr"); citation("ggpubr")
-library(breakaway); packageVersion("breakaway"); citation("breakaway")
-library(glmmTMB); packageVersion("glmmTMB"); citation("glmmTMB")
-library(emmeans); packageVersion("emmeans"); citation("emmeans")
-library(DHARMa); packageVersion("DHARMa"); citation("DHARMa")
-library(sjPlot); packageVersion("sjPlot"); citation("sjPlot")
-library(car); packageVersion("car"); citation("car")
+library(tidyverse)
+library(phyloseq)
+library(kableExtra)
+library(microbiome)
+library(DT)
+library(ggpubr)
+library(breakaway)
+library(glmmTMB)
+library(emmeans)
+library(DHARMa)
+library(sjPlot)
+library(car)
 
 
 ##READ IN DATA####
@@ -749,5 +749,5 @@ rare_16S <- rare_16S + geom_errorbar(data = MyData_rare,
 
 rare_16S
 
-
+##SESSION INFO####
 sessionInfo()
