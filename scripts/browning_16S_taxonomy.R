@@ -15,9 +15,9 @@ setwd("set/your/path")
 
 
 ##LOAD PACKAGES####
-library(tidyverse); packageVersion("tidyverse"); citation("tidyverse")
-library(phyloseq); packageVersion("phyloseq"); citation("phyloseq")
-library(patchwork); packageVersion("patchwork"); citation("patchwork")
+library(tidyverse)
+library(phyloseq)
+library(patchwork)
 
 ##READ IN DATA####
 brown <- readRDS("basic_filter_16s.RDS")
@@ -194,4 +194,5 @@ genus_plot + family_plot +
 ##End of Figure S4 Relative abundance of bacterial taxa####
 ###########################################################
 
+##SESSION INFO####                                     
 sessionInfo()
