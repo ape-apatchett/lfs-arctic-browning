@@ -1833,3 +1833,6 @@ sjPlot::tab_df(bryo_contrasts_df)
 
 vp_contrasts_df <- as.data.frame(pairs_vp_results)
 sjPlot::tab_df(vp_contrasts_df)
+
+##SESSION INFO####
+sessionInfo()
