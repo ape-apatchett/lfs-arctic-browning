@@ -10,17 +10,17 @@ setwd("set/your/path")
 
 ##LOAD LIBRARIES####
 # library
-library(multcompView); packageVersion("multcompView") #0.1.10
-library(tidyverse); packageVersion("tidyverse") #2.0.0
-library(ggpubr); packageVersion("ggpubr") #0.6.0
-library(ggbeeswarm); packageVersion("ggbeeswarm") #0.7.2
-library(kableExtra); packageVersion("kableExtra") #v1.4.0
-library(glmmTMB); packageVersion("glmmTMB") #1.1.11
-library(DHARMa); packageVersion("DHARMa") #0.4.7
-library(MASS); packageVersion("MASS") #7.3.65
-library(emmeans); packageVersion("emmeans") #1.11.1
-library(multcomp); packageVersion("multcomp") #1.4.28
-library(sjPlot); packageVersion("sjPlot") #2.8.17
+library(multcompView)
+library(tidyverse)
+library(ggpubr)
+library(ggbeeswarm)
+library(kableExtra)
+library(glmmTMB)
+library(DHARMa)
+library(MASS)
+library(emmeans)
+library(multcomp)
+library(sjPlot)
 
 ##READ IN DATA####
 qPCR <- read.csv("qPCR_Browning_recalc.csv")
@@ -668,4 +668,5 @@ sjPlot::tab_df(mfb_contrast_table)
 
 ##End of Table S12 Pairwise differences for soil 18S and 18S:16S####
 
+##SESSSION INFO####
 sessionInfo()
