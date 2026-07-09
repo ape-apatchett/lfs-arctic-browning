@@ -430,4 +430,5 @@ dispersion_veg <- betadisper(
 
 permutest(dispersion_veg)
 
+##SESSION INFO####
 sessionInfo()
