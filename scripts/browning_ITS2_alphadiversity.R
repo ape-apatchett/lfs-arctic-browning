@@ -17,17 +17,17 @@ setwd("set/your/path")
 
 
 ##LOAD PACKAGES####
-library(tidyverse); packageVersion("tidyverse"); citation("tidyverse")
-library(phyloseq); packageVersion("phyloseq"); citation("phyloseq")
-library(kableExtra); packageVersion("kableExtra"); citation("kableExtra")
-library(microbiome); packageVersion("microbiome"); citation("microbiome")
-library(DT); packageVersion("DT"); citation("DT") 
-library(ggpubr); packageVersion("ggpubr"); citation("ggpubr")
-library(glmmTMB); packageVersion("glmmTMB"); citation("glmmTMB")
-library(emmeans); packageVersion("emmeans"); citation("emmeans")
-library(DHARMa); packageVersion("DHARMa"); citation("DHARMa")
-library(car); packageVersion("car"); citation("car")
-library(sjPlot); packageVersion("sjPlot"); citation("sjPlot")
+library(tidyverse)
+library(phyloseq)
+library(kableExtra)
+library(microbiome)
+library(DT)
+library(ggpubr)
+library(glmmTMB)
+library(emmeans)
+library(DHARMa)
+library(car)
+library(sjPlot)
 
 
 ##READ IN DATA####
@@ -406,5 +406,5 @@ plot_model(glm_rare, type = "pred", terms = c("Vegetation", "Status")) +
 
 tab_model(glm_rare)
 
-
+##SESSION INFO####
 sessionInfo()
