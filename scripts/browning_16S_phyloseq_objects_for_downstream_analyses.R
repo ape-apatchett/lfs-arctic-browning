@@ -7,11 +7,11 @@ setwd("set/your/path")
 
 
 ##LOAD PACKAGES####
-library(tidyverse); packageVersion("tidyverse"); citation("tidyverse")
-library(phyloseq); packageVersion("phyloseq"); citation("phyloseq")
-library(data.table); packageVersion("data.table"); citation("data.table")
-library(knitr); packageVersion("knitr"); citation("knitr")
-library(kableExtra); packageVersion("kableExtra"); citation("kableExtra")
+library(tidyverse)
+library(phyloseq)
+library(data.table)
+library(knitr)
+library(kableExtra)
 
 
 ##READ IN DATA####
@@ -198,4 +198,5 @@ brownR
 #Save phyloseq object
 saveRDS(brownR, "rarefied_16s.RDS")
 
+##SESSION INFO####
 sessionInfo()
