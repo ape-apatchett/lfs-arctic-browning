@@ -24,13 +24,14 @@ setwd("set/your/path")
 
 
 ##LOAD PACKAGES####
-library(tidyverse); packageVersion("tidyverse"); citation("tidyverse")
-library(phyloseq); packageVersion("phyloseq"); citation("phyloseq")
-library(vegan); packageVersion("vegan"); citation("vegan")
-library(pairwiseAdonis); packageVersion("pairwiseAdonis"); citation("pairwiseAdonis")
-library(sjPlot); packageVersion("sjPlot"); citation("sjPlot")
-library(ggpubr); packageVersion("ggpubr"); citation("ggpubr")
-library(corrplot); packageVersion("corrplot"); citation("corrplot")
+library(tidyverse)
+library(phyloseq)
+library(vegan)
+library(pairwiseAdonis)
+library(sjPlot)
+library(ggpubr)
+library(corrplot)
+
 
 ##READ IN DATA####
 brownR <- readRDS("rarefied_ITS.RDS") 
@@ -697,4 +698,5 @@ ggplot(summary_partial, aes(x = Comparison, y = r, fill = p_value < 0.05)) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
+##SESSION INFO####                
 sessionInfo()
