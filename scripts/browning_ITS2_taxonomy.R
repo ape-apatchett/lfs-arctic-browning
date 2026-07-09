@@ -14,13 +14,13 @@
 setwd("set/your/path")
 
 ##LOAD PACKAGES####
-library(tidyverse); packageVersion("tidyverse"); citation("tidyverse")
-library(phyloseq); packageVersion("phyloseq"); citation("phyloseq")
-library(glmmTMB); packageVersion("glmmTMB"); citation("glmmTMB")
-library(DHARMa); packageVersion("DHARMa"); citation("DHARMa")
-library(emmeans); packageVersion("emmeans"); citation("emmeans")
-library(car); packageVersion("car"); citation("car")
-library(patchwork); packageVersion("patchwork"); citation("patchwork")
+library(tidyverse)
+library(phyloseq)
+library(glmmTMB)
+library(DHARMa)
+library(emmeans)
+library(car)
+library(patchwork)
 
 ##READ IN DATA####
 brown <- readRDS("no_filter_ITS.RDS")
@@ -255,4 +255,5 @@ plotResiduals(mamort, quantreg = TRUE, smoothScatter = FALSE)
 plotResiduals(mamort, form = df_mort$Vegetation, xlab = "Vegetation")
 plotResiduals(mamort, form = df_mort$Status, xlab = "Status")
 
+##SESSION INFO####                                      
 sessionInfo()
