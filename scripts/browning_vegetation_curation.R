@@ -49,3 +49,6 @@ vegetation_curated <- vegetation_curated %>%
 vegetation_curated
 
 write.csv(vegetation_curated, "vegetation_curated.csv", row.names = TRUE)
+
+##SESSION INFO####
+sessionInfo()
