@@ -21,11 +21,11 @@ setwd("set/your/path")
 
 
 ## LOAD PACKAGES ####
-library(tidyverse); packageVersion("tidyverse") #v2.0.0
-library(phyloseq); packageVersion("phyloseq") #v1.42.0
-library(data.table); packageVersion("data.table") #v1.17.0
-library(microbiome); packageVersion("microbiome")
-library(microbiomeutilities); packageVersion("microbiomeutilities")
+library(tidyverse)
+library(phyloseq)
+library(data.table)
+library(microbiome)
+library(microbiomeutilities)
 library(vegan)
 library(kableExtra)
 
@@ -234,5 +234,5 @@ brownR
 
 saveRDS(brownR, "rarefied_ITS.RDS") 
 
-
+##SESSION INFO####
 sessionInfo()
